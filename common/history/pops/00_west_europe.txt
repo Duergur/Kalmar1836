@@ -69,7 +69,6 @@
 				culture = danish
 				size = 21045
 			}
-			}
 		}
 	}
 	s:STATE_JUTLAND = {
