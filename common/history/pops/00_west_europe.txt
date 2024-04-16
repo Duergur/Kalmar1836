@@ -35,7 +35,7 @@
 		region_state:DEN = {
 			create_pop = {
 				culture = swedish
-				size = 482860
+				size = 382860
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -43,7 +43,7 @@
 			}
 			create_pop = {
 				culture = danish
-				size = 42548
+				size = 142548
 			}
 		}
 	}

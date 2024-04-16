@@ -110,7 +110,7 @@
 		}
 	}
 	s:STATE_SCANIA={
-		region_state:SWE={
+		region_state:DEN={
 			create_building={
 				building="building_government_administration"
 				level=1
