@@ -2954,7 +2954,7 @@
 		}
 	}
 	s:STATE_SCHLESWIG_HOLSTEIN={
-		region_state:DEN={
+		region_state:HOL={
 			create_building={
 				building="building_rye_farm"
 				level=1
@@ -2988,7 +2988,7 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 		}
-		region_state:SCH={
+		region_state:DEN={
 			create_building={
 				building="building_government_administration"
 				level=1
