@@ -252,7 +252,7 @@
 		}
 	}
 	s:STATE_EAST_KARELIA={
-		region_state:RUS={
+		region_state:FIN={
 			create_building={
 				building="building_logging_camp"
 				level=1
@@ -510,7 +510,7 @@
 		}
 	}
 	s:STATE_ESTONIA={
-		region_state:RUS={
+		region_state:DEN={
 			create_building={
 				building="building_fishing_wharf"
 				level=1

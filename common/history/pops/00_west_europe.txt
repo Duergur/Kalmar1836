@@ -1429,7 +1429,7 @@
 		}
 	}
 	s:STATE_SCHLESWIG_HOLSTEIN = {
-		region_state:HOL = {
+		region_state:DEN = {
 			create_pop = {
 				culture = north_german
 				size = 374604
