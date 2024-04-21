@@ -2973,6 +2973,13 @@ MILITARY_FORMATIONS = {
 				count = 1
 			}
 
+			combat_unit = { # Holstein Soldiers
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SCHLESWIG_HOLSTEIN
+				count = 2
+
+			}
+
 			combat_unit = { # Fyneske regiment lette Dragoner, Dronningens Livregiment
 				type = unit_type:combat_unit_type_dragoons
 				state_region = s:STATE_ZEALAND
