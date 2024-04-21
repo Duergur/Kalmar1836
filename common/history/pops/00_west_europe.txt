@@ -139,11 +139,11 @@ POPS = {
 		region_state:DEN = {
 			create_pop = {
 				culture = icelandic
-				size = 320000
+				size = 119875
 			}
 			create_pop = {
 				culture = danish
-				size = 100000
+				size = 73865
 			}
 		}
 	}
