@@ -2958,7 +2958,7 @@ MILITARY_FORMATIONS = {
 			combat_unit = { # 1. Íslenska Varnarliðið
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_ICELAND
-				count = 4
+				count = 1
 			}
 
 			combat_unit = { # 1. Jyske Infanteriregiment, 2. Jyske Infanteriregiment, 3. Jyske Infanteriregiment, Prins Christian Frederiks Regiment (til Fods)
