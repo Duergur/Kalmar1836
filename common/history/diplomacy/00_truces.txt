@@ -1,4 +1,4 @@
-﻿DIPLOMACY = {
+DIPLOMACY = {
 	c:NET ?= {
 		create_truce = {
 			country = c:BEL

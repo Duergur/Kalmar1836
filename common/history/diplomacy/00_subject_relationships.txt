@@ -1,4 +1,4 @@
-﻿DIPLOMACY = {
+DIPLOMACY = {
 	c:SPA ?= {
 		create_diplomatic_pact = {
 			country = c:CUB

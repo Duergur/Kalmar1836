@@ -1,4 +1,4 @@
-ÔªøMILITARY_FORMATIONS = {
+MILITARY_FORMATIONS = {
 	c:PRU ?= {
 		create_military_formation = {
 			type = army
@@ -1489,13 +1489,13 @@
 			hq_region = sr:region_baltic
 			name = Otdelniy_Gvardeyskiy_Korpus
 
-			combat_unit = { # L.-Gds. Preobrazhenskii and Semenovskii regiments, L.-Gds. Izmailovskii and J√§ger regiments, Livgardets 3:e finska skarpskyttebataljon (Finland)
+			combat_unit = { # L.-Gds. Preobrazhenskii and Semenovskii regiments, L.-Gds. Izmailovskii and J‰ger regiments, Livgardets 3:e finska skarpskyttebataljon (Finland)
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_INGRIA
 				count = 5
 			}
 
-			combat_unit = { # L.-Gds. Moscow and Grenadier regiments, L.-Gds. Pavlovsk regiment, Emperor Francis I‚Äôs Grenadier Regiment
+			combat_unit = { # L.-Gds. Moscow and Grenadier regiments, L.-Gds. Pavlovsk regiment, Emperor Francis I?s Grenadier Regiment
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_MOSCOW
 				count = 14
@@ -1507,13 +1507,13 @@
 				count = 1
 			}
 
-			combat_unit = { # His Majesty the King of Prussia‚Äôs Grenadier Regiment, L.-Gds. Volhynia Regiment
+			combat_unit = { # His Majesty the King of Prussia?s Grenadier Regiment, L.-Gds. Volhynia Regiment
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_VOLHYNIA
 				count = 2
 			}
 
-			combat_unit = { # Field Marshal Graf von der Osten-Saken‚Äôs and Kazan J√§gers
+			combat_unit = { # Field Marshal Graf von der Osten-Saken?s and Kazan J‰gers
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_KAZAN
 				count = 2
@@ -1532,7 +1532,7 @@
 			}
 
 			# Guards Cavalry
-			combat_unit = { # Chevalier Guards, L.-Gds. Horse, L.-Gds. Cuirassiers, Her Majesty‚Äôs Life-Cuirassiers, L.-Gds. Podolia Cuirassiers
+			combat_unit = { # Chevalier Guards, L.-Gds. Horse, L.-Gds. Cuirassiers, Her Majesty?s Life-Cuirassiers, L.-Gds. Podolia Cuirassiers
 				type = unit_type:combat_unit_type_cuirassiers
 				state_region = s:STATE_KURSK
 				count = 5
@@ -1545,7 +1545,7 @@
 				count = 2
 			}
 
-			combat_unit = { #  His Imperial Highness the Grand Duke Michael Pavlovich‚Äôs L.-Gds. Lancer Regiment, His Highness the Tsesarevich Constantine Pavlovich‚Äôs L.-Gds. Lancer Regiment
+			combat_unit = { #  His Imperial Highness the Grand Duke Michael Pavlovich?s L.-Gds. Lancer Regiment, His Highness the Tsesarevich Constantine Pavlovich?s L.-Gds. Lancer Regiment
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_NOVGOROD
 				count = 2
@@ -1573,19 +1573,19 @@
 			hq_region = sr:region_baltic
 			name = 1y_Pekhotniy_Korpus
 
-			combat_unit = { # Neva and Sofiya Infantry, Narva and Kopore J√§gers, Prince Wilhelm of Prussia‚Äôs and Prince Karl of Prussia‚Äôs Infantry, Old Ingermanland and New Ingermanland Infantry
+			combat_unit = { # Neva and Sofiya Infantry, Narva and Kopore J‰gers, Prince Wilhelm of Prussia?s and Prince Karl of Prussia?s Infantry, Old Ingermanland and New Ingermanland Infantry
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_INGRIA
 				count = 10
 			}
 
-			combat_unit = { # Reval and Estonia J√§gers
+			combat_unit = { # Reval and Estonia J‰gers
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_ESTONIA
 				count = 4
 			}
 
-			combat_unit = { #  Field Marshal Prince Kutuzov of Smolensk‚Äôs and Velikie-Luki J√§gers
+			combat_unit = { #  Field Marshal Prince Kutuzov of Smolensk?s and Velikie-Luki J‰gers
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_SMOLENSK
 				count = 4
@@ -1621,7 +1621,7 @@
 			}
 
 			# 1st Reserve Cavalry Corps
-			combat_unit = { # Yekaterinoslav and His Imperial Highness the Grand Duke Michael Pavlovich‚Äôs Cuirassier Regiments
+			combat_unit = { # Yekaterinoslav and His Imperial Highness the Grand Duke Michael Pavlovich?s Cuirassier Regiments
 				type = unit_type:combat_unit_type_cuirassiers
 				state_region = s:STATE_LUHANSK
 				count = 1
@@ -1638,7 +1638,7 @@
 				count = 1
 			}
 
-			combat_unit = { # Tenginsk and Navaginsk Infantry, Kabarda and Kura J√§gers
+			combat_unit = { # Tenginsk and Navaginsk Infantry, Kabarda and Kura J‰gers
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_KUBAN
 				count = 4
@@ -1650,13 +1650,13 @@
 				count = 1
 			}
 
-			combat_unit = { # Field Marshal the Prince of Warsaw, Graf Paskevich of Erivan‚Äôs Infantry
+			combat_unit = { # Field Marshal the Prince of Warsaw, Graf Paskevich of Erivan?s Infantry
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_ARMENIA
 				count = 1
 			}
 
-			combat_unit = { # Tiflis and Mingrelia J√§gers, 1st Georgian Foot Regiment
+			combat_unit = { # Tiflis and Mingrelia J‰gers, 1st Georgian Foot Regiment
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_GREATER_CAUCASUS
 				count = 3
@@ -1699,7 +1699,7 @@
 				count = 2
 			}
 
-			combat_unit = { # Schl√ºsselburg and Ladoga J√§gers
+			combat_unit = { # Schl¸sselburg and Ladoga J‰gers
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_NOVGOROD
 				count = 2
@@ -1717,7 +1717,7 @@
 				count = 1
 			}
 
-			combat_unit = { # Kostroma and Galich J√§gers
+			combat_unit = { # Kostroma and Galich J‰gers
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_GALICH
 				count = 2
@@ -1729,7 +1729,7 @@
 				count = 1
 			}
 
-			combat_unit = { # Nizhnii-Novgorod Infantry, Nizovsk and Simbirsk J√§gers
+			combat_unit = { # Nizhnii-Novgorod Infantry, Nizovsk and Simbirsk J‰gers
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_KAZAN
 				count = 3
@@ -1760,7 +1760,7 @@
 			}
 
 			# 2nd Reserve Cavalry Corps
-			combat_unit = { # Order and Starodub Cuirassier Regiments, Prince Albert of Prussia‚Äôs and Her Imperial Highness the Grand Duchess Helen Pavlovna‚Äôs Cuirassier Regments
+			combat_unit = { # Order and Starodub Cuirassier Regiments, Prince Albert of Prussia?s and Her Imperial Highness the Grand Duchess Helen Pavlovna?s Cuirassier Regments
 				type = unit_type:combat_unit_type_cuirassiers
 				state_region = s:STATE_BRYANSK
 				count = 3
@@ -1788,32 +1788,32 @@
 			hq_region = sr:region_dnieper
 			name = 3y_Pekhotniy_Korpus
 
-			combat_unit = { # Field Marshal the Duke of Wellington‚Äôs and Mogilev Infantry, Vitebsk and Polotsk J√§gers
+			combat_unit = { # Field Marshal the Duke of Wellington?s and Mogilev Infantry, Vitebsk and Polotsk J‰gers
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_ORSHA
 				count = 4
 			}
 
-			combat_unit = { # Field Marshal Graf Dibich of the Transbalkans‚Äô and Poltava Infantry, Aleksopol and Kremenchug J√§gers
+			combat_unit = { # Field Marshal Graf Dibich of the Transbalkans? and Poltava Infantry, Aleksopol and Kremenchug J‰gers
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_KIEV
 				count = 4
 			}
 
-			combat_unit = { # Yelets and Sevsk Infantry, Orel J√§gers
+			combat_unit = { # Yelets and Sevsk Infantry, Orel J‰gers
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_KURSK
 				count = 3
 			}
 
-			combat_unit = { # Bryansk J√§gers
+			combat_unit = { # Bryansk J‰gers
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_BRYANSK
 				count = 1
 			}
 
 			# 3rd Light Cavalry Division
-			combat_unit = { # Field Marshal Graf Wittgenstein‚Äôs and the Prince of Orange‚Äôs Hussar Regiments.
+			combat_unit = { # Field Marshal Graf Wittgenstein?s and the Prince of Orange?s Hussar Regiments.
 				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_KIEV
 				count = 2
@@ -1877,13 +1877,13 @@
 				count = 1
 			}
 
-			combat_unit = { # Tomsk J√§gers
+			combat_unit = { # Tomsk J‰gers
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_TOMSK
 				count = 1
 			}
 
-			combat_unit = { # Kolyvan J√§gers
+			combat_unit = { # Kolyvan J‰gers
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_AKMOLINSK
 				count = 1
@@ -1919,14 +1919,14 @@
 				count = 2
 			}
 
-			combat_unit = { # Ukraine and Odessa J√§gers
+			combat_unit = { # Ukraine and Odessa J‰gers
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_CHERSON
 				count = 2
 			}
 
 			# 4th Light Cavalry Division
-			combat_unit = { # Pavlograd and Archduke Ferdinand‚Äôs Hussar Regiments.
+			combat_unit = { # Pavlograd and Archduke Ferdinand?s Hussar Regiments.
 				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_LUHANSK
 				count = 2
@@ -1978,7 +1978,7 @@
 				count = 2
 			}
 
-			combat_unit = { # Lithuania and Vilna J√§gers
+			combat_unit = { # Lithuania and Vilna J‰gers
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_LITHUANIA
 				count = 2
@@ -1996,7 +1996,7 @@
 				count = 1
 			}
 
-			combat_unit = { # Podolia and Zhitomir J√§gers
+			combat_unit = { # Podolia and Zhitomir J‰gers
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_KIEV
 				count = 2
@@ -2008,7 +2008,7 @@
 				count = 2
 			}
 
-			combat_unit = { # Lublin and Zamosc J√§gers
+			combat_unit = { # Lublin and Zamosc J‰gers
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_LESSER_POLAND
 				count = 2
@@ -2061,49 +2061,49 @@
 			hq_region = sr:region_russia
 			name = Otdelniy_Grenaderskiy_Korpus
 
-			combat_unit = { # The Crown Prince of Prussia‚Äôs and Graf Arakcheev‚Äôs Grenadiers
+			combat_unit = { # The Crown Prince of Prussia?s and Graf Arakcheev?s Grenadiers
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_GREATER_POLAND
 				count = 2
 			}
 
-			combat_unit = { # Samogitia Grenadiers and Field Marshal Prince Barclay de Tolly‚Äôs Carabiniers
+			combat_unit = { # Samogitia Grenadiers and Field Marshal Prince Barclay de Tolly?s Carabiniers
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_LITHUANIA
 				count = 2
 			}
 
-			combat_unit = { # Kiev and His Royal Highness Prince Eugene of W√ºrttemberg‚Äôs Grenadiers
+			combat_unit = { # Kiev and His Royal Highness Prince Eugene of W¸rttemberg?s Grenadiers
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_KIEV
 				count = 2
 			}
 
-			combat_unit = { # Yekaterinoslav Grenadiers and Prince Paul of Mecklenburg‚Äôs Carabiniers
+			combat_unit = { # Yekaterinoslav Grenadiers and Prince Paul of Mecklenburg?s Carabiniers
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_LUHANSK
 				count = 2
 			}
 
-			combat_unit = { # Siberia and Field Marshal Graf Rumyantsov of the Transdanube‚Äôs Grenadiers
+			combat_unit = { # Siberia and Field Marshal Graf Rumyantsov of the Transdanube?s Grenadiers
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_URAL
 				count = 2
 			}
 
-			combat_unit = { # Generalissimus Prince Suvorov‚Äôs Grenadiers and Astrakhan Carabiniers
+			combat_unit = { # Generalissimus Prince Suvorov?s Grenadiers and Astrakhan Carabiniers
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_ASTRAKHAN
 				count = 2
 			}
 
 			# 7th Light Cavalry Division
-			combat_unit = { #  His Imperial Highness the Grand Duke Michael Pavlovich‚Äôs and His Majesty the King of W√ºrttemberg‚Äôs Hussar Regiments
+			combat_unit = { #  His Imperial Highness the Grand Duke Michael Pavlovich?s and His Majesty the King of W¸rttemberg?s Hussar Regiments
 				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_MINSK
 				count = 2
 			}
-			combat_unit = { # His Imperial Highness the Grand Duke Michael Pavlovich‚Äôs and Yamburg Lancer Regiments
+			combat_unit = { # His Imperial Highness the Grand Duke Michael Pavlovich?s and Yamburg Lancer Regiments
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_MOSCOW
 				count = 2
@@ -2122,14 +2122,14 @@
 			}
 
 			# 1st Reserve Cavalry Corps
-			combat_unit = { # Yekaterinoslav and His Imperial Highness the Grand Duke Michael Pavlovich‚Äôs Cuirassier Regiments
+			combat_unit = { # Yekaterinoslav and His Imperial Highness the Grand Duke Michael Pavlovich?s Cuirassier Regiments
 				type = unit_type:combat_unit_type_cuirassiers
 				state_region = s:STATE_LUHANSK
 				count = 1
 			}
 
 			# 2nd Reserve Cavalry Corps
-			combat_unit = { # Order and Starodub Cuirassier Regiments, Prince Albert of Prussia‚Äôs and Her Imperial Highness the Grand Duchess Helen Pavlovna‚Äôs Cuirassier Regments
+			combat_unit = { # Order and Starodub Cuirassier Regiments, Prince Albert of Prussia?s and Her Imperial Highness the Grand Duchess Helen Pavlovna?s Cuirassier Regments
 				type = unit_type:combat_unit_type_cuirassiers
 				state_region = s:STATE_BRYANSK
 				count = 1
@@ -2418,7 +2418,7 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry # J√§gers
+				type = unit_type:combat_unit_type_line_infantry # J‰gers
 				state_region = s:STATE_SAXONY
 				count = 2
 			}
@@ -2462,7 +2462,7 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry # J√§gers
+				type = unit_type:combat_unit_type_line_infantry # J‰gers
 				state_region = s:STATE_BAVARIA
 				count = 1
 			}
@@ -2498,7 +2498,7 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry # J√§gers
+				type = unit_type:combat_unit_type_line_infantry # J‰gers
 				state_region = s:STATE_FRANCONIA
 				count = 1
 			}
@@ -2614,7 +2614,7 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry # J√§gers
+				type = unit_type:combat_unit_type_line_infantry # J‰gers
 				state_region = s:STATE_HANNOVER
 				count = 1
 			}
@@ -2669,19 +2669,19 @@
 			hq_region = sr:region_north_germany
 			name = Groherzoglich_MecklenburgischSchwerinsche_Armee
 
-			combat_unit = { # Gro√üherzoglich Mecklenburgisches (Garde)Grenadier-Regiment,
+			combat_unit = { # Groﬂherzoglich Mecklenburgisches (Garde)Grenadier-Regiment,
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_MECKLENBURG
 				count = 3
 			}
 
-			combat_unit = { # 1. Gro√üherzoglich Mecklenburgisches Dragoner-Regiment, 2. Gro√üherzoglich Mecklenburgisches Dragoner-Regiment
+			combat_unit = { # 1. Groﬂherzoglich Mecklenburgisches Dragoner-Regiment, 2. Groﬂherzoglich Mecklenburgisches Dragoner-Regiment
 				type = unit_type:combat_unit_type_dragoons
 				state_region = s:STATE_MECKLENBURG
 				count = 2
 			}
 
-			combat_unit = { # Gro√üherzoglich Mecklenburgisches Feldartillerie-Regiment
+			combat_unit = { # Groﬂherzoglich Mecklenburgisches Feldartillerie-Regiment
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_MECKLENBURG
 				count = 1
@@ -2701,7 +2701,7 @@
 				count = 2
 			}
 
-			combat_unit = { # Gro√üherzoglich Oldenburgische Artillerie-Kompanie
+			combat_unit = { # Groﬂherzoglich Oldenburgische Artillerie-Kompanie
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_HANNOVER
 				count = 1
@@ -2815,31 +2815,31 @@
 			hq_region = sr:region_baltic
 			name = Kungliga_Svenska_Armn
 
-			combat_unit = { # F√∂rsta Livgrenadj√§rregementet, Andra livgrenadj√§rregementet, Dalregementet, Kronobergs regemente, N√§rkes regemente, S√∂dermanlands regemente, Upplands regemente, V√§stmanlands regemente, Svea livgarde, Livbev√§ringsregementet
+			combat_unit = { # Fˆrsta Livgrenadj‰rregementet, Andra livgrenadj‰rregementet, Dalregementet, Kronobergs regemente, N‰rkes regemente, Sˆdermanlands regemente, Upplands regemente, V‰stmanlands regemente, Svea livgarde, Livbev‰ringsregementet
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_SVEALAND
 				count = 10
 			}
 
-			combat_unit = { # Bohusl√§ns regemente, J√∂nk√∂pings regemente, V√§rmlands regemente, V√§stg√∂ta regemente, V√§stg√∂ta-Dals regemente, √Ñlvsborgs regemente, G√∂ta livgarde, Skaraborgs regemente
+			combat_unit = { # Bohusl‰ns regemente, Jˆnkˆpings regemente, V‰rmlands regemente, V‰stgˆta regemente, V‰stgˆta-Dals regemente, ƒlvsborgs regemente, Gˆta livgarde, Skaraborgs regemente
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_GOTALAND
 				count = 8
 			}
 
-			combat_unit = { # Kalmar regemente, Norra sk√•nska infanteriregementet, S√∂dra sk√•nska infanteriregementet,
+			combat_unit = { # Kalmar regemente, Norra skÂnska infanteriregementet, Sˆdra skÂnska infanteriregementet,
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_SCANIA
 				count = 3
 			}
 
-			combat_unit = { # H√§lsinge regemente, J√§mtlands f√§ltj√§garregemente, V√§sterbottens regemente
+			combat_unit = { # H‰lsinge regemente, J‰mtlands f‰ltj‰garregemente, V‰sterbottens regemente
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_NORRLAND
 				count = 3
 			}
 
-			combat_unit = { # Gotlands nationalbev√§ring
+			combat_unit = { # Gotlands nationalbev‰ring
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_GOTLAND
 				count = 1
@@ -2851,7 +2851,7 @@
 				count = 2
 			}
 
-			combat_unit = { # Livgardet till h√§st
+			combat_unit = { # Livgardet till h‰st
 				type = unit_type:combat_unit_type_cuirassiers
 				state_region = s:STATE_SVEALAND
 				count = 1
@@ -2863,25 +2863,25 @@
 				count = 1
 			}
 
-			combat_unit = { # Sk√•nska dragonregementet
+			combat_unit = { # SkÂnska dragonregementet
 				type = unit_type:combat_unit_type_dragoons
 				state_region = s:STATE_SCANIA
 				count = 1
 			}
 
-			combat_unit = { # Sk√•nska husarregementet
+			combat_unit = { # SkÂnska husarregementet
 				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_SCANIA
 				count = 1
 			}
 
-			combat_unit = { # Sm√•lands husarregemente
+			combat_unit = { # SmÂlands husarregemente
 				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_GOTALAND
 				count = 1
 			}
 
-			combat_unit = { # G√∂ta artillerregemente
+			combat_unit = { # Gˆta artillerregemente
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_GOTALAND
 				count = 1
@@ -2905,7 +2905,7 @@
 			hq_region = sr:region_baltic
 			name = Hgsjflottan
 
-			combat_unit = { # Carl XIII, Carl Johan, F√∂rsigtigheten, Stockholm, √Ñran, Dristigheten, F√§derneslandet
+			combat_unit = { # Carl XIII, Carl Johan, Fˆrsigtigheten, Stockholm, ƒran, Dristigheten, F‰derneslandet
 				type = unit_type:combat_unit_type_man_o_war
 				state_region = s:STATE_SVEALAND
 				count = 7
@@ -2955,7 +2955,7 @@
 				count = 5
 			}
 
-			combat_unit = { # 1. √çslenska Varnarli√∞i√∞
+			combat_unit = { # 1. Õslenska Varnarlii
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_ICELAND
 				count = 4
@@ -3003,7 +3003,7 @@
 				count = 2
 			}
 
-			combat_unit = { # Sj√¶llandske Lanseregiment
+			combat_unit = { # SjÊllandske Lanseregiment
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_ZEALAND
 				count = 1
@@ -3022,7 +3022,7 @@
 				count = 5
 			}
 
-			combat_unit = { # Ph≈ìnix
+			combat_unit = { # Ph?nix
 				type = unit_type:combat_unit_type_man_o_war
 				state_region = s:STATE_JUTLAND
 				count = 1
@@ -3130,7 +3130,7 @@
 				count = 2
 			}
 
-			combat_unit = { # Nyslott and Villmanstrand J√§gers
+			combat_unit = { # Nyslott and Villmanstrand J‰gers
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_SOUTHERN_FINLAND
 				count = 2
@@ -3875,7 +3875,7 @@
 				count = 4
 			}
 
-			combat_unit = { # H√∫sares de la Princesa
+			combat_unit = { # H˙sares de la Princesa
 				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_CASTILE
 				count = 1
