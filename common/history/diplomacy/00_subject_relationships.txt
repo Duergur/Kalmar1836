@@ -38,6 +38,10 @@ DIPLOMACY = {
 			country = c:HOH
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:HOL
+			type = protectorate
+		}
 	}		
 	c:DEN ?= {
 		create_diplomatic_pact = {
@@ -47,15 +51,15 @@ DIPLOMACY = {
 		create_diplomatic_pact = {
 			country = c:
 			type = personal_union
-			}
+		}
 		create_diplomatic_pact = {
 			country = c:SWE
 			type = personal_union
-			}
+		}
 		create_diplomatic_pact = {
 			country = c:NOR
 			type = personal_union
-					}
+		}
 		create_diplomatic_pact = {
 			country = c:FIN
 			type = personal_union
