@@ -1,4 +1,4 @@
-﻿POPS = {
+POPS = {
 	s:STATE_SVEALAND = {
 		region_state:SWE = {
 			create_pop = {
@@ -139,11 +139,11 @@
 		region_state:DEN = {
 			create_pop = {
 				culture = icelandic
-				size = 320000
+				size = 119875
 			}
 			create_pop = {
 				culture = danish
-				size = 100000
+				size = 73865
 			}
 		}
 	}
@@ -1005,7 +1005,7 @@
 				size = 210
 			}
 		}
-		# Hainaut, Liège, Luxembourg, and Namur
+		# Hainaut, Li�ge, Luxembourg, and Namur
 		region_state:BEL = { # 
 			create_pop = {
 				culture = wallonian # 'Walloon & French' in census data.
