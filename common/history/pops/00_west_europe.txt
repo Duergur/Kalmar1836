@@ -1,8 +1,34 @@
 ﻿POPS = {
 #KalmarMod
-
+#Norway
+	s:STATE_ICELAND = {
+		region_state:NOR = {
+			create_pop = {
+				culture = icelandic
+				size = 63200
+			}
+			create_pop = {
+				culture = danish
+				size = 520
+			}
+		}
+	}
+#Denmark
+	s:STATE_SCANIA = {
+		region_state:DEN = {
+			create_pop = {
+				culture = swedish
+				size = 512860
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 200
+			}
+		}
+	}
 
 #Vanilla
+
 	s:STATE_SVEALAND = {
 		region_state:SWE = {
 			create_pop = {
@@ -32,18 +58,6 @@
 			create_pop = {
 				culture = ashkenazi
 				size = 100
-			}
-		}
-	}
-	s:STATE_SCANIA = {
-		region_state:SWE = {
-			create_pop = {
-				culture = swedish
-				size = 512860
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 200
 			}
 		}
 	}
@@ -128,18 +142,6 @@
 			create_pop = {
 				culture = finnish
 				size = 7000
-			}
-		}
-	}
-	s:STATE_ICELAND = {
-		region_state:DEN = {
-			create_pop = {
-				culture = icelandic
-				size = 63200
-			}
-			create_pop = {
-				culture = danish
-				size = 520
 			}
 		}
 	}
