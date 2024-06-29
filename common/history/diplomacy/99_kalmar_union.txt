@@ -9,10 +9,4 @@
 			type = personal_union
 		}
     }
-    	c:SWE ?= {
-		create_diplomatic_pact = {
-			country = c:FIN
-			type = puppet
-		}
-    }
 }

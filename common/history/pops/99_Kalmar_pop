@@ -1,0 +1,106 @@
+﻿POPS = {
+	#Sweden-Finland
+
+	s:STATE_ALAND = { 
+		region_state:SWE = {
+			create_pop = {
+				culture = swedish
+				size = 25800
+			}
+			create_pop = {
+				culture = finnish
+				size = 1200
+			}
+		}
+	}
+	s:STATE_OULU = {
+		region_state:SWE = {
+			create_pop = {
+				culture = finnish
+				size = 116250
+			}
+			create_pop = {
+				culture = swedish
+				size = 1250
+			}
+			create_pop = {
+				culture = sami
+				size = 7500
+			}
+		}
+	}
+	s:STATE_UUSIMAA = { #DONE
+		region_state:SWE = {
+			create_pop = {
+				culture = swedish
+				size = 101334
+			}
+			create_pop = {
+				culture = finnish
+				size = 436941
+			}
+		}
+	}
+	s:STATE_KUOPIO = { #DONE
+		region_state:SWE = {
+			create_pop = {
+				culture = finnish
+				size = 301794
+			}
+			create_pop = {
+				culture = swedish
+				size = 1145
+			}
+		}
+	}
+	#Russia
+
+	s:STATE_WEST_KARELIA = { #DONE
+		region_state:RUS = {
+			create_pop = {
+				culture = finnish
+				size = 221799
+			}
+			create_pop = {
+				culture = finnish
+				religion = orthodox
+				size = 15000
+			}
+			create_pop = {
+				culture = swedish
+				size = 8715
+			}
+			create_pop = {
+				culture = russian
+				size = 3486
+			}
+		}
+	}
+#Denmark
+
+	s:STATE_SCANIA = {
+		region_state:DEN = {
+			create_pop = {
+				culture = swedish
+				size = 512860
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 200
+			}
+		}
+	}
+#Norway
+	s:STATE_ICELAND = {
+		region_state:NOR = {
+			create_pop = {
+				culture = icelandic
+				size = 63200
+			}
+			create_pop = {
+				culture = danish
+				size = 520
+			}
+		}
+	}
+}
