@@ -1,4 +1,381 @@
 ﻿MILITARY_FORMATIONS = {
+
+#KalmarMod
+#Sweden
+		c:SWE ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_baltic
+			name = Kungliga_Svenska_Armn
+
+			combat_unit = { # Första Livgrenadjärregementet, Andra livgrenadjärregementet, Dalregementet, Kronobergs regemente, Närkes regemente, Södermanlands regemente, Upplands regemente, Västmanlands regemente, Svea livgarde, Livbeväringsregementet
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SVEALAND
+				count = 8 # Reduced from 10 for balance reasons
+			}
+
+			combat_unit = { # Bohusläns regemente, Jönköpings regemente, Värmlands regemente, Västgöta regemente, Västgöta-Dals regemente, Älvsborgs regemente, Göta livgarde, Skaraborgs regemente
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_GOTALAND
+				count = 6 # Reduced from 8 for balance reasons
+			}
+
+			combat_unit = { # Hälsinge regemente, Jämtlands fältjägarregemente, Västerbottens regemente
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_NORRLAND
+				count = 2 # Reduced from 3 for balance reasons
+			}
+
+			combat_unit = { # Gotlands nationalbeväring
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_GOTLAND
+				count = 1
+			}
+
+			combat_unit = { # Kronprinsens husarregemente, Livregementets dragoner
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_SVEALAND
+				count = 2
+			}
+
+			combat_unit = { # Livgardet till häst
+				type = unit_type:combat_unit_type_cuirassiers
+				state_region = s:STATE_SVEALAND
+				count = 1
+			}
+
+			combat_unit = { # Livregementets dragoner
+				type = unit_type:combat_unit_type_dragoons
+				state_region = s:STATE_SVEALAND
+				count = 1
+			}
+
+
+
+			combat_unit = { # Smålands husarregemente
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_GOTALAND
+				count = 1
+			}
+
+			combat_unit = { # Göta artillerregemente
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_GOTALAND
+				count = 1
+			}
+
+			combat_unit = { # Wendes artilleriregemente
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_SVEALAND
+				count = 1
+			}
+
+			combat_unit = { # Svea artilleriregemente
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_SVEALAND
+				count = 1
+			}
+		}
+
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_baltic
+			name = Hgsjflottan
+
+			combat_unit = { # Carl XIII, Carl Johan, Försigtigheten, Stockholm, Gustaf den Store, Manligheten, Prins Oscar
+				type = unit_type:combat_unit_type_man_o_war
+				state_region = s:STATE_SVEALAND
+				count = 7
+			}
+			
+			combat_unit = { # Äran, Dristigheten, Fäderneslandet - should be man'o'wars, but this results in unbalanced fleet
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_SVEALAND
+				count = 3
+			}
+			
+
+			combat_unit = { # Skandinavien, Wasa
+				type = unit_type:combat_unit_type_man_o_war
+				state_region = s:STATE_GOTALAND
+				count = 2
+			}
+
+			combat_unit = { # Desiree, Camilla, Euridice, Galathea, Josephine
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_SVEALAND
+				count = 5
+			}
+
+			combat_unit = { # Af Chapman
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_GOTALAND
+				count = 1
+			}
+		}
+	}
+#Denmark
+	c:DEN ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_baltic
+			name = Hren
+
+			combat_unit = { # 1. Livregiment til Fods, 2. Livregiment til Fods, 3. Livregiment til Fods, Kronens Regiment, Fyenske Infanteriregiment
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_ZEALAND
+				count = 5
+			}
+
+			combat_unit = { # 1. Jyske Infanteriregiment, 2. Jyske Infanteriregiment, 3. Jyske Infanteriregiment, Prins Christian Frederiks Regiment (til Fods)
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_JUTLAND
+				count = 4
+			}
+
+			combat_unit = { # Danske Artilleribrigade
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_ZEALAND
+				count = 1
+			}
+
+			combat_unit = { # Fyneske regiment lette Dragoner, Dronningens Livregiment
+				type = unit_type:combat_unit_type_dragoons
+				state_region = s:STATE_ZEALAND
+				count = 2
+			}
+
+			combat_unit = { # Husarregimentet
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_ZEALAND
+				count = 1
+			}
+
+			combat_unit = { # Prins Frederik Ferdinands lette Dragoner
+				type = unit_type:combat_unit_type_dragoons
+				state_region = s:STATE_JUTLAND
+				count = 1
+			}
+
+			combat_unit = { # Jyske Kyrasseregiment
+				type = unit_type:combat_unit_type_cuirassiers
+				state_region = s:STATE_JUTLAND
+				count = 1
+			}
+
+			combat_unit = { # Danske Livregiment Ryttere, Den kongelige Livgarde til Hest
+				type = unit_type:combat_unit_type_cuirassiers
+				state_region = s:STATE_ZEALAND
+				count = 2
+			}
+
+			combat_unit = { # Sjællandske Lanseregiment
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_ZEALAND
+				count = 1
+			}
+				combat_unit = { # Kalmar regemente, Norra skånska infanteriregementet, Södra skånska infanteriregementet,
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SCANIA
+				count = 3
+			}
+			combat_unit = { # Skånska dragonregementet
+				type = unit_type:combat_unit_type_dragoons
+				state_region = s:STATE_SCANIA
+				count = 1
+			}
+
+			combat_unit = { # Skånska husarregementet
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_SCANIA
+				count = 1
+			}
+		}
+		#SlesvigArmy
+				create_military_formation = { # Under Denmark
+			type = army
+			hq_region = sr:region_north_germany
+			name = Schleswigsche_Armee
+	
+			combat_unit = { # Slesvigske Infanteriregiment
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SCHLESWIG_HOLSTEIN
+				count = 6
+			}
+
+			combat_unit = { # Slesvigske Kyrasserregiment
+				type = unit_type:combat_unit_type_cuirassiers
+				state_region = s:STATE_SCHLESWIG_HOLSTEIN
+				count = 2
+			}
+			save_scope_as = Schleswigsche_Armee
+		}	
+	
+
+		create_character = {
+			is_general = yes
+			first_name = christian_august_ii
+			last_name = von_sonderburg
+			historical = yes
+			hq = region_north_germany
+			commander_rank = commander_rank_1
+			age = 38
+			traits = {
+				ambitious
+			}
+			save_scope_as = sonderburg_gen
+		}
+		
+		scope:sonderburg_gen = {
+			transfer_to_formation = scope:Schleswigsche_Armee
+		}
+	#DanishFleet
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_baltic
+			name = Kongelige_Danske_Marine
+
+			combat_unit = { # Dronning Maria, Waldemar, Frederik VI, Skiold, Danmark
+				type = unit_type:combat_unit_type_man_o_war
+				state_region = s:STATE_ZEALAND
+				count = 5
+			}
+
+			combat_unit = { # Phœnix
+				type = unit_type:combat_unit_type_man_o_war
+				state_region = s:STATE_JUTLAND
+				count = 1
+			}
+
+			combat_unit = { # Freia, Rota, Havfruen, Bellona, Najaden, Perlen, Venus, Minerva
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_ZEALAND
+				count = 6
+			}
+
+			combat_unit = { # Nymphen, Fylla
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_JUTLAND
+				count = 2
+			}
+		}
+	}
+
+#Norway
+	c:NOR ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_baltic
+			name = Hren
+
+			combat_unit = { # 1. Akershusiske brigade, 2. Akershusiske brigade
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_EASTERN_NORWAY
+				count = 2
+			}
+
+			combat_unit = { # 3. Trondhjemske brigade
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_NORTHERN_NORWAY
+				count = 1
+			}
+
+			combat_unit = { # 4. Bergenhusiske brigade, 5. Kristiansandske brigade
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WESTERN_NORWAY
+				count = 2
+			}
+
+			combat_unit = { # Den kongelige norske Kavaleribrigade
+				type = unit_type:combat_unit_type_dragoons
+				state_region = s:STATE_EASTERN_NORWAY
+				count = 1
+			}
+
+			combat_unit = { # Den kongelige norske Artilleribrigade
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_EASTERN_NORWAY
+				count = 1
+			}
+		}
+
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_baltic
+			name = Kongelige_Norske_Marine
+
+			combat_unit = { # Freia
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_EASTERN_NORWAY
+				count = 1
+			}
+		}
+	}
+#Finland
+	c:FIN ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_finland
+			name = 19e_Infanteridivision
+
+			combat_unit = { # Viborg and Petrovsk Infantry
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WEST_KARELIA
+				count = 2
+			}
+
+			combat_unit = { # Nyslott and Villmanstrand Jägers
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_UUSIMAA
+				count = 2
+			}
+			combat_unit = { # 19th Field Artillery Brigade
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_UUSIMAA
+				count = 1
+			}
+		}
+
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_finland
+			name = Finska_SjEquipaget # Suomen Meriekipaasi - Swedish was the sole offical language of the Grand Duchy in 1836
+
+			combat_unit = { # Nothing the size of a frigate at this point in history
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_UUSIMAA
+				count = 1
+			}
+		}
+	}
+#Holstein
+	c:HOL ?= {
+		create_military_formation = { # Under Denmark
+			type = army
+			hq_region = sr:region_north_germany
+			name = Holsteinische_Armee
+
+			combat_unit = { # Holstenske Infanteriregiment, Oldenborgske Infanteriregiment
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SCHLESWIG_HOLSTEIN
+				count = 2
+			}
+
+			combat_unit = { # Holstenske Lanseregiment
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_SCHLESWIG_HOLSTEIN
+				count = 1
+			}
+
+			combat_unit = { # Holstenske Artilleribrigade
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_SCHLESWIG_HOLSTEIN
+				count = 1
+			}
+		}
+	}
+#Vanilla
+
 	c:PRU ?= {
 		create_military_formation = {
 			type = army
@@ -2792,361 +3169,6 @@
 			}
 		}
 	}	
-
-	c:SWE ?= {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_baltic
-			name = Kungliga_Svenska_Armn
-
-			combat_unit = { # Första Livgrenadjärregementet, Andra livgrenadjärregementet, Dalregementet, Kronobergs regemente, Närkes regemente, Södermanlands regemente, Upplands regemente, Västmanlands regemente, Svea livgarde, Livbeväringsregementet
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_SVEALAND
-				count = 8 # Reduced from 10 for balance reasons
-			}
-
-			combat_unit = { # Bohusläns regemente, Jönköpings regemente, Värmlands regemente, Västgöta regemente, Västgöta-Dals regemente, Älvsborgs regemente, Göta livgarde, Skaraborgs regemente
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_GOTALAND
-				count = 6 # Reduced from 8 for balance reasons
-			}
-
-			combat_unit = { # Hälsinge regemente, Jämtlands fältjägarregemente, Västerbottens regemente
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_NORRLAND
-				count = 2 # Reduced from 3 for balance reasons
-			}
-
-			combat_unit = { # Gotlands nationalbeväring
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_GOTLAND
-				count = 1
-			}
-
-			combat_unit = { # Kronprinsens husarregemente, Livregementets dragoner
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_SVEALAND
-				count = 2
-			}
-
-			combat_unit = { # Livgardet till häst
-				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_SVEALAND
-				count = 1
-			}
-
-			combat_unit = { # Livregementets dragoner
-				type = unit_type:combat_unit_type_dragoons
-				state_region = s:STATE_SVEALAND
-				count = 1
-			}
-
-
-
-			combat_unit = { # Smålands husarregemente
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_GOTALAND
-				count = 1
-			}
-
-			combat_unit = { # Göta artillerregemente
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_GOTALAND
-				count = 1
-			}
-
-			combat_unit = { # Wendes artilleriregemente
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_SVEALAND
-				count = 1
-			}
-
-			combat_unit = { # Svea artilleriregemente
-				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_SVEALAND
-				count = 1
-			}
-		}
-
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_baltic
-			name = Hgsjflottan
-
-			combat_unit = { # Carl XIII, Carl Johan, Försigtigheten, Stockholm, Gustaf den Store, Manligheten, Prins Oscar
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_SVEALAND
-				count = 7
-			}
-			
-			combat_unit = { # Äran, Dristigheten, Fäderneslandet - should be man'o'wars, but this results in unbalanced fleet
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_SVEALAND
-				count = 3
-			}
-			
-
-			combat_unit = { # Skandinavien, Wasa
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_GOTALAND
-				count = 2
-			}
-
-			combat_unit = { # Desiree, Camilla, Euridice, Galathea, Josephine
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_SVEALAND
-				count = 5
-			}
-
-			combat_unit = { # Af Chapman
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_GOTALAND
-				count = 1
-			}
-		}
-	}
-
-	c:DEN ?= {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_baltic
-			name = Hren
-
-			combat_unit = { # 1. Livregiment til Fods, 2. Livregiment til Fods, 3. Livregiment til Fods, Kronens Regiment, Fyenske Infanteriregiment
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_ZEALAND
-				count = 5
-			}
-
-			combat_unit = { # 1. Jyske Infanteriregiment, 2. Jyske Infanteriregiment, 3. Jyske Infanteriregiment, Prins Christian Frederiks Regiment (til Fods)
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_JUTLAND
-				count = 4
-			}
-
-			combat_unit = { # Danske Artilleribrigade
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_ZEALAND
-				count = 1
-			}
-
-			combat_unit = { # Fyneske regiment lette Dragoner, Dronningens Livregiment
-				type = unit_type:combat_unit_type_dragoons
-				state_region = s:STATE_ZEALAND
-				count = 2
-			}
-
-			combat_unit = { # Husarregimentet
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_ZEALAND
-				count = 1
-			}
-
-			combat_unit = { # Prins Frederik Ferdinands lette Dragoner
-				type = unit_type:combat_unit_type_dragoons
-				state_region = s:STATE_JUTLAND
-				count = 1
-			}
-
-			combat_unit = { # Jyske Kyrasseregiment
-				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_JUTLAND
-				count = 1
-			}
-
-			combat_unit = { # Danske Livregiment Ryttere, Den kongelige Livgarde til Hest
-				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_ZEALAND
-				count = 2
-			}
-
-			combat_unit = { # Sjællandske Lanseregiment
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_ZEALAND
-				count = 1
-			}
-				combat_unit = { # Kalmar regemente, Norra skånska infanteriregementet, Södra skånska infanteriregementet,
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_SCANIA
-				count = 3
-			}
-			combat_unit = { # Skånska dragonregementet
-				type = unit_type:combat_unit_type_dragoons
-				state_region = s:STATE_SCANIA
-				count = 1
-			}
-
-			combat_unit = { # Skånska husarregementet
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_SCANIA
-				count = 1
-			}
-		}
-
-
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_baltic
-			name = Kongelige_Danske_Marine
-
-			combat_unit = { # Dronning Maria, Waldemar, Frederik VI, Skiold, Danmark
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_ZEALAND
-				count = 5
-			}
-
-			combat_unit = { # Phœnix
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_JUTLAND
-				count = 1
-			}
-
-			combat_unit = { # Freia, Rota, Havfruen, Bellona, Najaden, Perlen, Venus, Minerva
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_ZEALAND
-				count = 6
-			}
-
-			combat_unit = { # Nymphen, Fylla
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_JUTLAND
-				count = 2
-			}
-		}
-	}
-
-	c:SCH ?= {
-		create_military_formation = { # Under Denmark
-			type = army
-			hq_region = sr:region_north_germany
-			name = Schleswigsche_Armee
-
-			combat_unit = { # Slesvigske Infanteriregiment
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_SCHLESWIG_HOLSTEIN
-				count = 1
-			}
-
-			combat_unit = { # Slesvigske Kyrasserregiment
-				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_SCHLESWIG_HOLSTEIN
-				count = 1
-			}
-		}
-	}
-
-	c:HOL ?= {
-		create_military_formation = { # Under Denmark
-			type = army
-			hq_region = sr:region_north_germany
-			name = Holsteinische_Armee
-
-			combat_unit = { # Holstenske Infanteriregiment, Oldenborgske Infanteriregiment
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_SCHLESWIG_HOLSTEIN
-				count = 2
-			}
-
-			combat_unit = { # Holstenske Lanseregiment
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_SCHLESWIG_HOLSTEIN
-				count = 1
-			}
-
-			combat_unit = { # Holstenske Artilleribrigade
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_SCHLESWIG_HOLSTEIN
-				count = 1
-			}
-		}
-	}
-
-	c:NOR ?= {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_baltic
-			name = Hren
-
-			combat_unit = { # 1. Akershusiske brigade, 2. Akershusiske brigade
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_EASTERN_NORWAY
-				count = 2
-			}
-
-			combat_unit = { # 3. Trondhjemske brigade
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_NORTHERN_NORWAY
-				count = 1
-			}
-
-			combat_unit = { # 4. Bergenhusiske brigade, 5. Kristiansandske brigade
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_WESTERN_NORWAY
-				count = 2
-			}
-
-			combat_unit = { # Den kongelige norske Kavaleribrigade
-				type = unit_type:combat_unit_type_dragoons
-				state_region = s:STATE_EASTERN_NORWAY
-				count = 1
-			}
-
-			combat_unit = { # Den kongelige norske Artilleribrigade
-				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_EASTERN_NORWAY
-				count = 1
-			}
-		}
-
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_baltic
-			name = Kongelige_Norske_Marine
-
-			combat_unit = { # Freia
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_EASTERN_NORWAY
-				count = 1
-			}
-		}
-	}
-
-	c:FIN ?= {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_finland
-			name = 19e_Infanteridivision
-
-			combat_unit = { # Viborg and Petrovsk Infantry
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_WEST_KARELIA
-				count = 2
-			}
-
-			combat_unit = { # Nyslott and Villmanstrand Jägers
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_UUSIMAA
-				count = 2
-			}
-			combat_unit = { # 19th Field Artillery Brigade
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_UUSIMAA
-				count = 1
-			}
-		}
-
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_finland
-			name = Finska_SjEquipaget # Suomen Meriekipaasi - Swedish was the sole offical language of the Grand Duchy in 1836
-
-			combat_unit = { # Nothing the size of a frigate at this point in history
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_UUSIMAA
-				count = 1
-			}
-		}
-	}
 
 	c:GRE ?= {
 		create_military_formation = { # Greeks

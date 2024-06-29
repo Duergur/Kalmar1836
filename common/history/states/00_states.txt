@@ -86,6 +86,23 @@ s:STATE_OULU = {
 		add_homeland = cu:swedish
 		add_homeland = cu:danish
 	}
+		s:STATE_SCHLESWIG_HOLSTEIN = {
+		create_state = {
+			country = c:HOL
+			owned_provinces = { x804160 x64824C xE000A0 xBFCC21 }
+		}
+		create_state = {
+			country = c:LUB
+			owned_provinces = { x60809F }
+		}
+		create_state = {
+			country = c:DEN
+			owned_provinces = { x00C060 x78B203 xE3C876 }
+		}
+		
+		add_homeland = cu:danish
+		add_homeland = cu:north_german
+	}
 
 #Vanilla
 
@@ -7395,23 +7412,6 @@ s:STATE_OULU = {
 			owned_provinces = { xA65DA6 x83B1A8 x9B9076 xA040A0 x069CFB xF8D457 x61C0A0 x82F9A8 x9E7304 x76EF4E xDF4020 x28CEC2 xB90BFF x514C51 xF77289 x60BF20 }
 		}
 		
-		add_homeland = cu:north_german
-	}
-	s:STATE_SCHLESWIG_HOLSTEIN = {
-		create_state = {
-			country = c:HOL
-			owned_provinces = { x804160 x64824C xE000A0 }
-		}
-		create_state = {
-			country = c:LUB
-			owned_provinces = { x60809F }
-		}
-		create_state = {
-			country = c:SCH
-			owned_provinces = { x00C060 x78B203 xE3C876 xBFCC21 }
-		}
-		
-		add_homeland = cu:danish
 		add_homeland = cu:north_german
 	}
 	s:STATE_WURTTEMBERG = {
