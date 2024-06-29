@@ -1,4 +1,34 @@
-POPS = {
+﻿POPS = {
+#KalmarMod
+#Norway
+	s:STATE_ICELAND = {
+		region_state:NOR = {
+			create_pop = {
+				culture = icelandic
+				size = 63200
+			}
+			create_pop = {
+				culture = danish
+				size = 520
+			}
+		}
+	}
+#Denmark
+	s:STATE_SCANIA = {
+		region_state:DEN = {
+			create_pop = {
+				culture = swedish
+				size = 512860
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 200
+			}
+		}
+	}
+
+#Vanilla
+
 	s:STATE_SVEALAND = {
 		region_state:SWE = {
 			create_pop = {
@@ -31,22 +61,6 @@ POPS = {
 			}
 		}
 	}
-	s:STATE_SCANIA = {
-		region_state:DEN = {
-			create_pop = {
-				culture = swedish
-				size = 382860
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 200
-			}
-			create_pop = {
-				culture = danish
-				size = 142548
-			}
-		}
-	}
 	s:STATE_NORRLAND = {
 		region_state:SWE = {
 			create_pop = {
@@ -64,14 +78,10 @@ POPS = {
 		}
 	}
 	s:STATE_GOTLAND = {
-		region_state:DEN = {
+		region_state:SWE = {
 			create_pop = {
 				culture = swedish
-				size = 25647
-			}
-			create_pop = {
-				culture = danish
-				size = 21045
+				size = 33208
 			}
 		}
 	}
@@ -135,23 +145,11 @@ POPS = {
 			}
 		}
 	}
-	s:STATE_ICELAND = {
-		region_state:DEN = {
-			create_pop = {
-				culture = icelandic
-				size = 119875
-			}
-			create_pop = {
-				culture = danish
-				size = 73865
-			}
-		}
-	}
 	s:STATE_GREENLAND = {
 		region_state:DEN = {
 			create_pop = {
-				culture = icelandic
-				size = 4200
+				culture = danish
+				size = 410
 			}
 			create_pop = {
 				culture = inuit
@@ -162,75 +160,6 @@ POPS = {
 				culture = inuit
 				religion = animist
 				size = 1510
-			}
-		}
-	}
-	s:STATE_SOUTHERN_FINLAND = {
-		region_state:FIN = {
-			create_pop = {
-				culture = swedish
-				size = 154900
-			}
-			create_pop = {
-				culture = finnish
-				size = 690000
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 400
-			}
-			create_pop = {
-				culture = danish
-				size = 3000
-			}
-		}
-	}
-	s:STATE_WEST_KARELIA = {
-		region_state:FIN = {
-			create_pop = {
-				culture = finnish
-				size = 177000
-			}
-			create_pop = {
-				culture = finnish
-				religion = orthodox
-				size = 10000
-			}
-			create_pop = {
-				culture = swedish
-				size = 1200
-			}
-			create_pop = {
-				culture = estonian
-				size = 700
-			}
-		}
-	}
-	s:STATE_ALAND = {
-		region_state:DEN = {
-			create_pop = {
-				culture = swedish
-				size = 12000
-			}
-			create_pop = {
-				culture = danish
-				size = 4000
-			}
-		}
-	}
-	s:STATE_OSTROBOTHNIA = {
-		region_state:FIN = {
-			create_pop = {
-				culture = finnish
-				size = 360000
-			}
-			create_pop = {
-				culture = swedish
-				size = 47000
-			}
-			create_pop = {
-				culture = sami
-				size = 18000
 			}
 		}
 	}
@@ -1005,7 +934,7 @@ POPS = {
 				size = 210
 			}
 		}
-		# Hainaut, Li�ge, Luxembourg, and Namur
+		# Hainaut, Liège, Luxembourg, and Namur
 		region_state:BEL = { # 
 			create_pop = {
 				culture = wallonian # 'Walloon & French' in census data.
@@ -1463,7 +1392,7 @@ POPS = {
 				size = 2000
 			}
 		}
-		region_state:DEN = {
+		region_state:SCH = {
 			create_pop = {
 				culture = north_german
 				size = 200000
