@@ -22,7 +22,7 @@
 #}
 
 kalmar_union = {
-	color = { 00  110  182 }
+	color = "00  110  182"
 
 	possible = {
 		exists = c:SCA
@@ -672,6 +672,19 @@ federation_of_the_americas = {
 				}
 				count > 1
 			}
+		}
+	}
+}
+
+kartli_kakheti = {
+	color = "kartli_grey"
+
+	possible = {
+		exists = c:GEO
+		THIS = c:GEO
+		is_country_type = unrecognized
+		NOT = {
+			has_technology_researched = nationalism
 		}
 	}
 }

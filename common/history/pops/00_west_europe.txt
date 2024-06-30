@@ -26,6 +26,48 @@
 			}
 		}
 	}
+		s:STATE_SCHLESWIG_HOLSTEIN = {
+		region_state:HOL = {
+			create_pop = {
+				culture = north_german
+				size = 374604
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 2000
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 8000
+			}
+			create_pop = {
+				culture = danish
+				size = 20000
+			}
+		}
+		region_state:LUB = {
+			create_pop = {
+				culture = north_german
+				size = 82396
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 2000
+			}
+		}
+		region_state:DEN = {
+			create_pop = {
+				culture = north_german
+				size = 200000
+			}
+			create_pop = {
+				culture = danish
+				size = 136404
+			}
+		}
+	}
 
 #Vanilla
 
@@ -1358,48 +1400,6 @@
 			create_pop = {
 				culture = polish
 				size = 20000
-			}
-		}
-	}
-	s:STATE_SCHLESWIG_HOLSTEIN = {
-		region_state:HOL = {
-			create_pop = {
-				culture = north_german
-				size = 374604
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 2000
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 8000
-			}
-			create_pop = {
-				culture = danish
-				size = 20000
-			}
-		}
-		region_state:LUB = {
-			create_pop = {
-				culture = north_german
-				size = 82396
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 2000
-			}
-		}
-		region_state:SCH = {
-			create_pop = {
-				culture = north_german
-				size = 200000
-			}
-			create_pop = {
-				culture = danish
-				size = 136404
 			}
 		}
 	}
