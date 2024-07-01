@@ -284,6 +284,21 @@
 			}
 		}
 	}
+	s:STATE_NORN_ISLANDS={
+		region_state:NOR={
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					building={
+						type="building_fishing_wharf"
+						country="c:NOR"
+						levels=1
+						region="STATE_ICELAND"
+					}
+				}
+			}
+		}
+	}
 #Sweden
 	s:STATE_SVEALAND={
 		region_state:NOR={

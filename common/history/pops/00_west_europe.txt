@@ -8,8 +8,16 @@
 				size = 63200
 			}
 			create_pop = {
-				culture = danish
-				size = 520
+				culture = norwegian
+				size = 12500
+			}
+		}
+	}
+	s:STATE_NORN_ISLANDS = {
+		region_state:NOR = {
+			create_pop = {
+				culture = norwegian
+				size = 63200
 			}
 		}
 	}
