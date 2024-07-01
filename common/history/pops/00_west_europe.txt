@@ -110,12 +110,6 @@
 				size = 1000
 			}
 		}
-			region_state:NOR = {
-			create_pop = {
-				culture = norwegian
-				size = 20000
-			}
-		}
 	}
 	s:STATE_GOTALAND = {
 		region_state:SWE = {
@@ -139,6 +133,18 @@
 			}
 		}
 	}
+	s:STATE_JAMTLAND = {
+		region_state:NOR = {
+			create_pop = {
+				culture = norwegian
+				size = 68000
+			}
+			create_pop = {
+				culture = sami
+				size = 4000
+			}
+		}
+	}
 	s:STATE_NORRLAND = {
 		region_state:SWE = {
 			create_pop = {
@@ -152,16 +158,6 @@
 			create_pop = {
 				culture = sami
 				size = 14000
-			}
-		}
-		region_state:NOR = {
-			create_pop = {
-				culture = norwegian
-				size = 48000
-			}
-			create_pop = {
-				culture = sami
-				size = 4000
 			}
 		}
 	}

@@ -270,7 +270,7 @@
 
 			combat_unit = { # Hälsinge regemente, Jämtlands fältjägarregemente, Västerbottens regemente
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_NORRLAND
+				state_region = s:STATE_JAMTLAND
 				count = 2 # used to be swedish
 			}
 

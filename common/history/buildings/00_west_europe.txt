@@ -273,19 +273,6 @@
 	}
 #Sweden
 	s:STATE_SVEALAND={
-		region_state:NOR={
-			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:DEN"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
-			}
-		}
 		region_state:SWE={
 			create_building={
 				building="building_government_administration"
@@ -531,7 +518,7 @@
 			}
 		}
 	}
-	s:STATE_NORRLAND={
+	s:STATE_JAMTLAND={
 		region_state:NOR={
 			create_building={
 				building="building_logging_camp"
@@ -540,13 +527,41 @@
 						type="building_financial_district"
 						country="c:NOR"
 						levels=2
-						region="STATE_NORRLAND"
+						region="STATE_EASTERN_NORWAY"
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_increased_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:NOR"
+						levels=1
+						region="STATE_EASTERN_NORWAY"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:NOR"
+						levels=2
+						region="STATE_EASTERN_NORWAY"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
+			}
 		}
+	}
+	s:STATE_NORRLAND={
 		region_state:SWE={
 			create_building={
 				building="building_logging_camp"

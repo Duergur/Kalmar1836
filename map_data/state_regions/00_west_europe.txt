@@ -1,7 +1,7 @@
 ﻿STATE_SVEALAND = {
     id = 1
     subsistence_building = "building_subsistence_pastures"
-    provinces = { "x0974E5" "x216569" "x24A2F1" "x298E7B" "x317138" "x36F523" "x3844C0" "x3E2C22" "x404643" "x41C729" "x432E07" "x45B6EF" "x4628A5" "x4836F2" "x4B02EB" "x4C9918" "x4FA424" "x604060" "x62D0D4" "x656512" "x6CF949" "x6E95C2" "x6F40EC" "x823263" "x8AC21D" "x90845E" "x93C3BC" "x93C76C" "x9686A5" "x9BBBE3" "xA001A0" "xA08021" "xA6C31B" "xA82FF7" "xA86C50" "xA9078A" "xB3F1FB" "xB90566" "xB9391F" "xBC0288" "xC0C0E0" "xC480A5" "xC8AEAF" "xCBFD28" "xCF16B1" "xD155CE" "xD702F7" "xD96FB9" "xE6C5FC" "xE7A6D6" "xE9B084" "xEA6A0F" "xEB5D5F" "xEFA14D" "xF08323" "xF48646" "xF8E400" "xFCCAFA" }
+    provinces = { "x0974E5" "x24A2F1" "x298E7B" "x317138" "x36F523" "x3844C0" "x3E2C22" "x404643" "x41C729" "x432E07" "x45B6EF" "x4836F2" "x4B02EB" "x4C9918" "x4FA424" "x604060" "x62D0D4" "x656512" "x6CF949" "x6E95C2" "x6F40EC" "x823263" "x8AC21D" "x93C3BC" "x93C76C" "x9686A5" "x9BBBE3" "xA001A0" "xA08021" "xA6C31B" "xA82FF7" "xA86C50" "xA9078A" "xB3F1FB" "xB90566" "xB9391F"  "xC0C0E0" "xC480A5" "xC8AEAF" "xCBFD28" "xD155CE" "xD702F7" "xD96FB9"  "xE9B084" "xEA6A0F" "xEB5D5F" "xEFA14D" "xF08323" "xF48646" "xF8E400" "xFCCAFA" }
     traits = { "state_trait_bergslagen" "state_trait_scandinavian_forests" "state_trait_natural_harbors" }
     city = "x9686A5"
     port = "x93C3BC"
@@ -11,8 +11,8 @@
     arable_land = 30
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_iron_mining = 36
-        bg_lead_mining = 18
+        bg_iron_mining = 35
+        bg_lead_mining = 16
         bg_logging = 23
         bg_fishing = 11
     }
@@ -62,17 +62,17 @@ STATE_SCANIA = {
 STATE_NORRLAND = {
     id = 4
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x008BB6" "x034858" "x03B36A" "x088E56" "x08D197" "x099666" "x09D644" "x09FFED" "x0AF217" "x0B3385" "x0B4908" "x0B5DDB" "x0B904B" "x0C8979" "x0D190C" "x1038C8" "x10D8D8" "x114DC0" "x12A0A6" "x137BA3" "x14CAC8" "x151F54" "x17C5B9" "x17F5A8" "x19490C" "x1A295F" "x1B4D60" "x1B880D" "x1B9E26" "x1DEDA9" "x1F7647" "x201348" "x23BDCB" "x2400E6" "x254371" "x280ADD" "x2D0B55" "x2D39E7" "x2D90A0" "x2FB6A7" "x3536B3" "x36C15B" "x36E9BA" "x3755D9" "x3971BD" "x3A414C" "x3B3CE9" "x3C0AB2" "x3C380F" "x3DF5D6" "x3DFA21" "x41C0C0" "x420C00" "x4265D2" "x43613F" "x45F53A" "x47F238" "x480DD3" "x49AFFE" "x4B2FC0" "x4C05DB" "x4D99D0" "x4DDB2C" "x527230" "x542385" "x57503D" "x578A4F" "x5A1735" "x5C738D" "x5D8E92" "x5ECC55" "x5F4052" "x5F6273" "x60D50A" "x610180" "x611A6B" "x61741A" "x61C061" "x628C3C" "x62CF2F" "x62F809" "x65B92F" "x66BF36" "x67082A" "x69CDA6" "x6A76CF" "x6CBB46" "x71B772" "x7238AF" "x724142" "x761B27" "x7A8123" "x7B5240" "x7C4A83" "x7D4196" "x7D7947" "x7EB12E" "x8009C9" "x8039FC" "x83A641" "x84DE76" "x86050C" "x8806E2" "x8BB571" "x8D2552" "x8EADE6" "x9001B6" "x918BA2" "x9250AD" "x9371B0" "x96C8D6" "x96F571" "x988205" "x9DC69F" "x9DE993" "xA0D2B0" "xA23443" "xA23906" "xA27DDB" "xA33BA5" "xA37B45" "xA5646C" "xA56D10" "xA61D8D" "xA7B5CE" "xAAC957" "xAEC76F" "xB044F6" "xB08854" "xB0CD27" "xB2359B" "xB2E726" "xB372EF" "xB44696" "xBA8A9D" "xBAA18C" "xC08CD2" "xC13E1E" "xC202DF" "xC2087C" "xC24915" "xC29B05" "xC416A1" "xC4C901" "xC59B64" "xC7CA0F" "xC901E8" "xCC3115" "xCD1FD5" "xD11F7D" "xD2391D" "xD2B7E0" "xD30875" "xD42DD0" "xD46B93" "xD523E3" "xD56426" "xD56867" "xD582BB" "xD5FBFC" "xD65AA2" "xD85905" "xD884CA" "xD94B80" "xDAF45E" "xDD78C9" "xDF0080" "xE04BF5" "xE08001" "xE0D494" "xE1AF5C" "xE5591E" "xE56FE5" "xE612BF" "xE99CC9" "xEAFB06" "xED6A40" "xEE68C2" "xF1329A" "xF3C7F6" "xF4B64B" "xF561EA" "xFAE2CD" "xFE7B03" "xFECE8F" "xFF6F4B" }
+    provinces = { "x008BB6" "x03B36A" "x088E56" "x08D197" "x099666" "x09D644" "x0AF217" "x0B3385" "x0B4908" "x0B5DDB" "x0B904B" "x0C8979" "x0D190C" "x1038C8" "x10D8D8" "x114DC0" "x12A0A6" "x137BA3" "x14CAC8" "x151F54" "x17C5B9" "x19490C" "x1B4D60" "x1B9E26" "x1DEDA9" "x1F7647" "x201348" "x23BDCB" "x2400E6" "x254371" "x280ADD" "x2D0B55" "x2D39E7" "x2D90A0" "x2FB6A7" "x3536B3" "x36E9BA" "x3755D9" "x3971BD" "x3A414C" "x3B3CE9" "x3C0AB2" "x3C380F" "x3DF5D6" "x3DFA21" "x420C00" "x43613F" "x45F53A" "x47F238" "x480DD3" "x49AFFE" "x4B2FC0" "x4C05DB" "x4D99D0" "x527230" "x57503D" "x578A4F" "x5A1735" "x5C738D" "x5D8E92" "x5ECC55" "x5F4052" "x5F6273" "x60D50A" "x610180" "x611A6B" "x61C061" "x62CF2F" "x62F809" "x65B92F" "x66BF36" "x67082A" "x69CDA6" "x6A76CF" "x6CBB46"  "x7238AF" "x724142" "x761B27" "x7A8123" "x7B5240" "x7C4A83" "x7D4196" "x7D7947" "x7EB12E" "x8039FC" "x83A641" "x84DE76" "x86050C" "x8806E2" "x8BB571" "x9001B6" "x918BA2" "x9250AD" "x9371B0" "x96C8D6" "x96F571" "x988205" "x9DC69F" "x9DE993"  "xA23443" "xA23906" "xA27DDB" "xA33BA5" "xA37B45" "xA5646C" "xA56D10" "xAAC957" "xAEC76F" "xB044F6" "xB08854" "xB0CD27" "xB2359B" "xB2E726" "xB372EF" "xB44696" "xBA8A9D" "xBAA18C" "xC08CD2" "xC13E1E" "xC202DF" "xC2087C" "xC24915" "xC29B05" "xC416A1" "xC4C901" "xC7CA0F" "xC901E8" "xCC3115" "xCD1FD5" "xD11F7D" "xD2391D" "xD2B7E0" "xD30875" "xD42DD0" "xD46B93" "xD523E3" "xD56426" "xD56867" "xD582BB" "xD5FBFC" "xD65AA2" "xD85905" "xD884CA" "xD94B80" "xDD78C9" "xDF0080" "xE04BF5" "xE08001" "xE0D494" "xE1AF5C" "xE5591E" "xE56FE5" "xE612BF" "xE99CC9" "xEAFB06" "xED6A40" "xF1329A" "xF4B64B" "xF561EA" "xFAE2CD" "xFE7B03" "xFECE8F" "xFF6F4B" }
     traits = { "state_trait_malmberget" "state_trait_scandinavian_forests" }
     city = "xE08001"
     port = "xD2B7E0"
     farm = "x3755D9"
     mine = "xD5FBFC"
     wood = "x420C00"
-    arable_land = 22
+    arable_land = 20
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
-        bg_iron_mining = 40
+        bg_iron_mining = 35
         bg_logging = 20
         bg_fishing = 12
     }
@@ -234,6 +234,23 @@ STATE_NORN_ISLANDS = {
         bg_fishing = 7
     }
     naval_exit_id = 3022
+
+}
+STATE_JAMTLAND = {
+    id = 1445
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "xBC0288" "x216569" "x90845E" "xCF16B1" "xE6C5FC" "xE7A6D6" "x4628A5" "x17F5A8"  "x8EADE6" "x4DDB2C" "x36C15B" "xA7B5CE" "x8D2552" "xA61D8D" "x71B772" "x09FFED" "xA0D2B0" "x034858" "x1A295F" "x61741A" "x8009C9" "x1B880D" "xEE68C2" "x542385" "x628C3C" "x4265D2" "x41C0C0" "xF3C7F6" "xC59B64" "xDAF45E" }
+    city = "xBC0288"
+    mine = "x216569"
+    farm = "x90845E"
+    wood = "xCF16B1"
+    arable_land = 8
+    arable_resources = { "bg_livestock_ranches" }
+    capped_resources = {
+        bg_iron_mining = 10
+        bg_logging = 6
+        bg_lead_mining = 8
+    }
 
 }
 STATE_GREENLAND = {
