@@ -286,6 +286,19 @@
 	}
 #Sweden
 	s:STATE_SVEALAND={
+		region_state:NOR={
+			create_building={
+				building="building_government_administration"
+				add_ownership={
+					country={
+						country="c:DEN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_horizontal_drawer_cabinets" }
+			}
+		}
 		region_state:SWE={
 			create_building={
 				building="building_government_administration"
@@ -539,7 +552,7 @@
 					building={
 						type="building_financial_district"
 						country="c:NOR"
-						levels=3
+						levels=2
 						region="STATE_NORRLAND"
 					}
 				}

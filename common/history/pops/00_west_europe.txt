@@ -81,7 +81,7 @@
 		region_state:SWE = {
 			create_pop = {
 				culture = swedish
-				size = 1081208
+				size = 1061208
 			}
 			create_pop = {
 				culture = finnish
@@ -90,6 +90,12 @@
 			create_pop = {
 				culture = ashkenazi
 				size = 1000
+			}
+		}
+			region_state:NOR = {
+			create_pop = {
+				culture = norwegian
+				size = 20000
 			}
 		}
 	}
