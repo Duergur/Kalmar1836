@@ -5,19 +5,27 @@
 		region_state:NOR = {
 			create_pop = {
 				culture = icelandic
-				size = 63200
+				size = 55700
 			}
 			create_pop = {
 				culture = norwegian
-				size = 12500
+				size = 1262 # if u know u know
 			}
 		}
 	}
 	s:STATE_NORN_ISLANDS = {
 		region_state:NOR = {
+			create_pop = { #all numbers based on wikipedia
+				culture = icelandic #Faroes
+				size = 7500
+			}
 			create_pop = {
-				culture = norwegian
-				size = 63200
+				culture = norwegian #Shetlands
+				size = 35000
+			}
+			create_pop = {
+				culture = scottish #Orkney
+				size = 29000
 			}
 		}
 	}
