@@ -240,6 +240,21 @@
 			}
 		}
 	}
+	s:STATE_GOTLAND={
+		region_state:DEN={
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:DEN"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
+			}
+		}
+	}
 #Norway
 	s:STATE_ICELAND={
 		region_state:NOR={
@@ -269,9 +284,7 @@
 			}
 		}
 	}
-	
-#vanilla
-
+#Sweden
 	s:STATE_SVEALAND={
 		region_state:SWE={
 			create_building={
@@ -392,6 +405,20 @@
 		}
 	}
 	s:STATE_GOTALAND={
+		region_state:NOR={
+			create_building={
+				building="building_government_administration"
+				add_ownership={
+					country={
+						country="c:NOR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+			}
+		}
+	}
 		region_state:SWE={
 			create_building={
 				building="building_government_administration"
@@ -506,6 +533,20 @@
 		}
 	}
 	s:STATE_NORRLAND={
+		region_state:NOR={
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:NOR"
+						levels=3
+						region="STATE_NORRLAND"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_increased_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
 		region_state:SWE={
 			create_building={
 				building="building_logging_camp"
@@ -535,21 +576,11 @@
 			}
 		}
 	}
-	s:STATE_GOTLAND={
-		region_state:SWE={
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:SWE"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-		}
-	}
+
+	
+#vanilla
+
+
 	s:STATE_JUTLAND={
 		region_state:DEN={
 			create_building={

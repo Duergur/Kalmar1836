@@ -68,10 +68,16 @@
 			}
 		}
 	}
-
-#Vanilla
-
-	s:STATE_SVEALAND = {
+	s:STATE_GOTLAND = {
+		region_state:DEN = {
+			create_pop = {
+				culture = swedish
+				size = 33208
+			}
+		}
+	}
+	#Sweden
+	s:STATE_SVEALAND = { #No edits yet
 		region_state:SWE = {
 			create_pop = {
 				culture = swedish
@@ -101,6 +107,12 @@
 				culture = ashkenazi
 				size = 100
 			}
+		region_state:NOR = {
+			create_pop = {
+				culture = norwegian
+				size = 28000
+			}
+			}
 		}
 	}
 	s:STATE_NORRLAND = {
@@ -115,18 +127,23 @@
 			}
 			create_pop = {
 				culture = sami
-				size = 18000
-			}
-		}
-	}
-	s:STATE_GOTLAND = {
-		region_state:SWE = {
+				size = 14000
+			region_state:NOR = {
 			create_pop = {
-				culture = swedish
-				size = 33208
+				culture = norwegian
+				size = 48000
+			}
+						create_pop = {
+				culture = sami
+				size = 4000
+			}
 			}
 		}
 	}
+
+#Vanilla
+
+
 	s:STATE_JUTLAND = {
 		region_state:DEN = {
 			create_pop = {
