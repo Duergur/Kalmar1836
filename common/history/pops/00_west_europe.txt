@@ -77,7 +77,7 @@
 		}
 	}
 	#Sweden
-	s:STATE_SVEALAND = { #No edits yet
+	s:STATE_SVEALAND = {
 		region_state:SWE = {
 			create_pop = {
 				culture = swedish
@@ -107,11 +107,11 @@
 				culture = ashkenazi
 				size = 100
 			}
+		}
 		region_state:NOR = {
 			create_pop = {
 				culture = norwegian
 				size = 28000
-			}
 			}
 		}
 	}
@@ -128,15 +128,16 @@
 			create_pop = {
 				culture = sami
 				size = 14000
-			region_state:NOR = {
+			}
+		}
+		region_state:NOR = {
 			create_pop = {
 				culture = norwegian
 				size = 48000
 			}
-						create_pop = {
+			create_pop = {
 				culture = sami
 				size = 4000
-			}
 			}
 		}
 	}

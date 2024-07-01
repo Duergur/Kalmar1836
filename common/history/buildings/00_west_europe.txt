@@ -418,7 +418,6 @@
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
 			}
 		}
-	}
 		region_state:SWE={
 			create_building={
 				building="building_government_administration"
@@ -547,6 +546,7 @@
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_increased_hardwood" "pm_no_equipment" "pm_road_carts"  }
 			}
+		}
 		region_state:SWE={
 			create_building={
 				building="building_logging_camp"
