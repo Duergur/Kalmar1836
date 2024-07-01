@@ -3,3 +3,10 @@
  christian_august_ii:0 "Christian August II"
  von_sonderburg:0 "von Sonderburg"
  STATE_NORN_ISLANDS:0 "North Sea Islands"
+ #Hubs
+ HUB_NAME_STATE_NORN_ISLANDS_city:0 "Kirkavå"
+ HUB_NAME_STATE_NORN_ISLANDS_port:0 "Skara Brae"
+ HUB_NAME_STATE_NORN_ISLANDS_mine:0 "Jarlshof"
+ HUB_NAME_STATE_NORN_ISLANDS_farm:1 "Tórshavn"
+ HUB_NAME_STATE_NORN_ISLANDS_wood:0 "Kirkava"
+ 
