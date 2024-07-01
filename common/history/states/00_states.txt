@@ -142,13 +142,6 @@ s:STATE_OULU = {
 			country = c:LUB
 			owned_provinces = { x60809F }
 		}
-		create_state = {
-			country = c:DEN
-			owned_provinces = { x00C060 x78B203 xE3C876 }
-		}
-		
-		add_homeland = cu:danish
-		add_homeland = cu:north_german
 	}
 		s:STATE_GOTLAND = {
 		create_state = {
@@ -157,6 +150,15 @@ s:STATE_OULU = {
 		}
 		
 		add_homeland = cu:swedish
+	}
+		s:STATE_JUTLAND = {
+		create_state = {
+			country = c:DEN
+			owned_provinces = { x00C060 x78B203 xE3C876 x00BFDF x83E6B1 x951AF2 x770871 x2D2259 xBA6413 x8041E0 x1F29B8 x94468F xB0B469 xEBF079 x0040DF }
+		}
+		
+		add_homeland = cu:danish
+		add_homeland = cu:north_german
 	}
 
 #Vanilla
@@ -3607,14 +3609,6 @@ s:STATE_OULU = {
 		}
 
 		add_homeland = cu:dutch
-	}
-	s:STATE_JUTLAND = {
-		create_state = {
-			country = c:DEN
-			owned_provinces = { x00BFDF x83E6B1 x951AF2 x770871 x2D2259 xBA6413 x8041E0 x1F29B8 x94468F xB0B469 xEBF079 x0040DF }
-		}
-		
-		add_homeland = cu:danish
 	}
 	s:STATE_ZEALAND = {
 		create_state = {

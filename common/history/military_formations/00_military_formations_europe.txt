@@ -182,18 +182,18 @@
 		#SlesvigArmy
 				create_military_formation = { # Under Denmark
 			type = army
-			hq_region = sr:region_north_germany
+			hq_region = sr:region_baltic
 			name = Schleswigsche_Armee
 	
 			combat_unit = { # Slesvigske Infanteriregiment
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_SCHLESWIG_HOLSTEIN
+				state_region = s:STATE_JUTLAND
 				count = 6
 			}
 
 			combat_unit = { # Slesvigske Kyrasserregiment
 				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_SCHLESWIG_HOLSTEIN
+				state_region = s:STATE_JUTLAND
 				count = 2
 			}
 			save_scope_as = Schleswigsche_Armee
@@ -205,7 +205,7 @@
 			first_name = christian_august_ii
 			last_name = von_sonderburg
 			historical = yes
-			hq = region_north_germany
+			hq = region_baltic
 			commander_rank = commander_rank_1
 			age = 38
 			traits = {
