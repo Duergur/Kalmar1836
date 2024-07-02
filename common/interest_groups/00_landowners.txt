@@ -44,9 +44,9 @@
 				limit = {
 					owner = { c:DEN ?= this}
 				}
-				set_ig_trait = ig_trait:ig_trait_noble_privileges
-				set_ig_trait = ig_trait:ig_trait_kalmar_loyalty
-				set_ig_trait = ig_trait:ig_trait_latifundios
+				set_ig_trait = ig_trait:ig_trait_vasa_cult
+				set_ig_trait = ig_trait:ig_trait_norwegian_loyalty
+				set_ig_trait = ig_trait:ig_trait_swedish_loyalty
 			}
 			else_if = {
 				limit = {
