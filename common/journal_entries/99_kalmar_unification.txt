@@ -7,7 +7,6 @@ je_kalmar_unification = {
 		#hidden_trigger = { NOT = { has_global_variable = schleswig_holstein_question_solved } }		
 		OR = {
 			country_has_primary_culture = cu:danish
-			country_has_primary_culture = cu:swedish
 		}
 	}
 
@@ -15,12 +14,14 @@ je_kalmar_unification = {
 		#hidden_trigger = { NOT = { has_global_variable = schleswig_holstein_question_solved } }			
 		OR = {
 			country_has_primary_culture = cu:danish
-			country_has_primary_culture = cu:swedish
 		}			
 	}
 
 	complete = {
-		exists = c:SCA
+			country_has_primary_culture = cu:danish
+			country_has_primary_culture = cu:swedish
+			country_has_primary_culture = cu:norwegian
+			has_technology_researched = pan-nationalism	
 	}
 
 	on_complete = {
@@ -29,7 +30,7 @@ je_kalmar_unification = {
 
 	invalid = {
 		OR = {
-			country_has_primary_culture = cu:hungarian
+			is_subject = yes
 		}
 	}
 	
