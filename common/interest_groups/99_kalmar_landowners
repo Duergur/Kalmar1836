@@ -1,0 +1,23 @@
+﻿ig_landowners = {
+	on_enable = {
+		ig:ig_landowners = {
+			if = {
+				limit = {
+					owner = { c:DEN ?= this}
+				}
+				set_ig_trait = ig_trait:ig_trait_profitable_estates
+				set_ig_trait = ig_trait_kalmar_loyalty
+				set_ig_trait = ig_trait:ig_trait_bad_boyars
+			}
+			else_if = {
+				limit = {
+					has_dlc_feature = rp1_content
+					owner = { c:SWE ?= this}
+				}
+				set_ig_trait = ig_trait:ig_trait_noble_privileges
+				set_ig_trait = ig_trait:ig_trait_fazenda_ibicaba
+				set_ig_trait = ig_trait:ig_trait_latifundios
+			}
+        }
+    }
+}
