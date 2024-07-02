@@ -1,0 +1,37 @@
+﻿namespace = kalmar_united
+
+kalmar_united.1 = {
+	type = country_event
+	title = kalmar_united.1.t
+	desc = kalmar_united.1.d
+	flavor = kalmar_united.1.f
+
+	duration = 3
+	
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	event_image = {
+		video = "asia_westerners_arriving"
+	}
+
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	
+	trigger = {
+		owns_entire_state_region = STATE_SVEALAND
+	}
+	
+
+	immediate = {
+        ig:ig_landowners = {
+		save_scope_as = kalmar_ig
+		}
+	}
+	option = {
+		name = kalmar_united.3.b
+		default_option = yes
+		scope:kalmar_ig = {
+			set_ig_trait = ig_trait:ig_trait_noble_privileges
+			set_ig_trait = ig_trait:ig_trait_family_ties
+			set_ig_trait = ig_trait:ig_trait_noblesse_oblige
+		}
+	}
+}

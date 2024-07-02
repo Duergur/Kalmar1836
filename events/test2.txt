@@ -1,0 +1,37 @@
+﻿namespace = teest
+
+# Dual Monarchy event
+teest.1 = {
+	type = country_event
+	desc = teest.1.d
+	title = teest.1.t 
+	flavor = teest.1.f
+
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	duration = 3
+
+	trigger = {
+		# triggered by dual monarchy JE
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = teest.1.a
+		default_option = yes
+				ig:ig_landowners = {
+			remove_ideology = ideology_austrian_hegemony
+			hidden_effect = {
+				set_interest_group_name = ig_landowners
+			}
+		}
+	}
+}

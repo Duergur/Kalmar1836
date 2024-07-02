@@ -1,0 +1,22 @@
+﻿namespace = secret_unite
+
+secret_unite.1 = { # every event always needs an ID
+	type = country_event # remember, this can be state_event or character_event too
+	hidden = yes # you must include this line or you'll get errors
+	
+	trigger = {
+	    exists = c:SCA # this checks if a country with the tag "USA" exists
+		this = c:SCA # this checks if a country with the tag "USA" is the current scoped country
+	}
+
+	immediate = {
+	    ig:ig_landowners = {
+		save_scope_as = kalmar_ig
+		}
+        scope:kalmar_ig = {
+		    set_ig_trait = ig_trait:ig_trait_profitable_estates
+			set_ig_trait = ig_trait:ig_trait_the_velvet_book
+			set_ig_trait = ig_trait:ig_trait_bad_boyars
+            }
+	    }
+    }
