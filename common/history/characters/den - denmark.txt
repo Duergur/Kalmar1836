@@ -2,8 +2,8 @@
 	c:DEN ?= {
 		create_character = {
 			# Frederick VI of Denmark
-			first_name = "Frederik"
-			last_name = "von_Oldenburg"
+			first_name = "Valdemar"
+			last_name = "Estridsen"
 			historical = yes
 			ruler = yes
 			birth_date = 1768.1.28
@@ -12,7 +12,7 @@
 			ideology = ideology_traditionalist
 			traits = {
 				basic_political_operator
-				imperious
+				romantic
 			}
 			on_created = {
 				set_variable = is_married
@@ -21,19 +21,18 @@
 
 		create_character = {
 			# the future Christian VIII of Denmark, half-first-cousin of Frederick VI
-			first_name = "Christian"
-			last_name = "von_Oldenburg"
+			first_name = "Margrethe"
+			last_name = "Estridsen"
 			historical = yes
 			heir = yes
-			birth_date = 1786.9.18
-			interest_group = ig_landowners
-			ideology = ideology_traditionalist
+			female = yes
+			birth_date = 1821.3.17
+			interest_group = ig_intelligentsia
+			ideology = ideology_royalist
 			traits = {
-				basic_political_operator
-				cautious
+				ambitious
 			}
 			on_created = {
-				set_variable = is_married
 			}
 		}
 
