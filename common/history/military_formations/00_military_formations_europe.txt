@@ -20,18 +20,6 @@
 				count = 6 # Reduced from 8 for balance reasons
 			}
 
-			combat_unit = { # Hälsinge regemente, Jämtlands fältjägarregemente, Västerbottens regemente
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_NORRLAND
-				count = 2 # Reduced from 3 for balance reasons
-			}
-
-			combat_unit = { # Gotlands nationalbeväring
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_GOTLAND
-				count = 1
-			}
-
 			combat_unit = { # Kronprinsens husarregemente, Livregementets dragoner
 				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_SVEALAND
@@ -278,6 +266,12 @@
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_NORTHERN_NORWAY
 				count = 1
+			}
+
+			combat_unit = { # Hälsinge regemente, Jämtlands fältjägarregemente, Västerbottens regemente
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_NORRLAND
+				count = 2 # used to be swedish
 			}
 
 			combat_unit = { # 4. Bergenhusiske brigade, 5. Kristiansandske brigade
