@@ -3,7 +3,7 @@
 	min_approval = loyal
 	
 	modifier = {
-		country_liberty_desire_of_subjects_add = -0.25
+		country_liberty_desire_of_subjects_add = -0.35
 	}
 }
 ig_trait_norwegian_loyalty = {
@@ -11,7 +11,7 @@ ig_trait_norwegian_loyalty = {
 	min_approval = happy
 	
 	modifier = {
-		country_liberty_desire_of_subjects_add = -0.10
+		country_liberty_desire_of_subjects_add = -0.15
 	}
 }
 ig_trait_vasa_cult = {

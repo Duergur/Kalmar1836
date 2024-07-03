@@ -1,23 +1,34 @@
-﻿ig_landowners = {
-	on_enable = {
+﻿
+enable = {
+	always = yes
+	}
+on_enable = {
 		ig:ig_landowners = {
 			if = {
 				limit = {
-					owner = { c:DEN ?= this}
+					owner = { c:DEN = this}
 				}
-				set_ig_trait = ig_trait:ig_trait_profitable_estates
-				set_ig_trait = ig_trait_kalmar_loyalty
-				set_ig_trait = ig_trait:ig_trait_bad_boyars
+				set_ig_trait = ig_trait:ig_trait_vasa_cult
+				set_ig_trait = ig_trait:ig_trait_norwegian_loyalty
+				set_ig_trait = ig_trait:ig_trait_swedish_loyalty
 			}
 			else_if = {
 				limit = {
-					has_dlc_feature = rp1_content
-					owner = { c:SWE ?= this}
-				}
+						owner = { c:SCA ?= this }
+						c:SCA ?= { was_formed_from = DEN }
+						}
 				set_ig_trait = ig_trait:ig_trait_noble_privileges
-				set_ig_trait = ig_trait:ig_trait_fazenda_ibicaba
-				set_ig_trait = ig_trait:ig_trait_latifundios
+				set_ig_trait = ig_trait:ig_trait_family_ties
+				set_ig_trait = ig_trait:ig_trait_junkerdom
 			}
-        }
-    }
-}
+		}
+		# Kalmar Union 
+		if = {
+			limit = {
+				c:DEN ?= this
+			}
+			ig:ig_landowners = {
+				set_interest_group_name = ig_kalmar_nobility
+			}
+		}
+	}

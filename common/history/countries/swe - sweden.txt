@@ -9,20 +9,31 @@
 		set_tariffs_export_priority = g:iron
 		set_tariffs_export_priority = g:wood
 		
-		# Laws 
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_oligarchy
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_women_own_property
-		activate_law = law_type:law_per_capita_based_taxation
+        #PowerStructureLaws
+        activate_law = law_type:law_monarchy
+		activate_law = law_type:law_census_voting
+        activate_law = law_type:law_national_supremacy
+        activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_no_workers_rights
-		activate_law = law_type:law_local_police
-		activate_law = law_type:law_national_supremacy # Swedish policies regarding the Sami were not terribly enlightened during this period
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_religious_schools
-		activate_law = law_type:law_right_of_assembly
+        activate_law = law_type:law_professional_army
+        activate_law = law_type:law_no_home_affairs
+        #EconomyLaws
+        activate_law = law_type:law_interventionism
+        activate_law = law_type:law_mercantilism
+        activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_colonial_resettlement
+        activate_law = law_type:law_local_police
+        activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_no_health_system
+		#HumanRightsLaws
+        activate_law = law_type:law_right_of_assembly
+        activate_law = law_type:law_no_workers_rights
+        activate_law = law_type:law_child_labor_allowed
+        activate_law = law_type:law_women_own_property
+        activate_law = law_type:law_no_social_security
+		activate_law = law_type:law_no_migration_controls
+		activate_law = law_type:law_slavery_banned
 		
 		set_institution_investment_level = {
 			institution = institution_schools

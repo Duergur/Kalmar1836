@@ -140,7 +140,8 @@
 				add_principle = principle_external_trade_1
 			}
 		}
-	}	
+	}
+	# Kalmar Union
 		c:DEN = {
 		create_power_bloc = {
 			name = KALMAR_UNION
