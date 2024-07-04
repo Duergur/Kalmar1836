@@ -22,16 +22,14 @@ teest.1 = {
 	}
 
 	immediate = {
+		s:STATE_SCHLESWIG_HOLSTEIN = {
+		save_scope_as = sles_hol
+		}
 	}
 
 	option = {
-		name = teest.1.a
-		default_option = yes
-				ig:ig_landowners = {
-			remove_ideology = ideology_austrian_hegemony
-			hidden_effect = {
-				set_interest_group_name = ig_landowners
-			}
+		scope:sles_hol = {
+		add_homeland = cu:north_german
 		}
 	}
 }
