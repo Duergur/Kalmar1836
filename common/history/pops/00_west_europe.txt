@@ -18,7 +18,11 @@
 		region_state:DEN = {
 			create_pop = {
 				culture = swedish
-				size = 512860
+				size = 337860
+			}
+			create_pop = {
+				culture = danish
+				size = 175000
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -26,7 +30,7 @@
 			}
 		}
 	}
-		s:STATE_SCHLESWIG_HOLSTEIN = {
+	s:STATE_SCHLESWIG_HOLSTEIN = {
 		region_state:HOL = {
 			create_pop = {
 				culture = north_german
@@ -57,14 +61,16 @@
 				size = 2000
 			}
 		}
+	}
+		s:STATE_JUTLAND = {
 		region_state:DEN = {
-			create_pop = {
+				create_pop = {
 				culture = north_german
 				size = 200000
 			}
 			create_pop = {
 				culture = danish
-				size = 136404
+				size = 685312 
 			}
 		}
 	}
@@ -151,14 +157,6 @@
 #Vanilla
 
 
-	s:STATE_JUTLAND = {
-		region_state:DEN = {
-			create_pop = {
-				culture = danish
-				size = 548908
-			}
-		}
-	}
 	s:STATE_ZEALAND = {
 		region_state:DEN = {
 			create_pop = {
@@ -212,15 +210,25 @@
 		}
 	}
 	s:STATE_GREENLAND = {
-		region_state:DEN = {
+		region_state:NOR = {
 			create_pop = {
-				culture = danish
-				size = 410
+				culture = norwegian
+				size = 420
 			}
 			create_pop = {
 				culture = inuit
 				religion = protestant
 				size = 9254
+			}
+			create_pop = {
+				culture = icelandic
+				religion = animist
+				size = 3850
+			}
+			create_pop = {
+				culture = icelandic
+				religion = protestant
+				size = 2800
 			}
 			create_pop = {
 				culture = inuit
