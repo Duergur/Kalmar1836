@@ -2,7 +2,7 @@
 
 slesvig_question.2 = {
 	type = country_event
-	placement = scope:ng_expulsion_state
+	placement = root
 
 	icon = "gfx/interface/icons/event_icons/event_skull.dds"
 	event_image = {
@@ -27,6 +27,18 @@ slesvig_question.2 = {
 	}
 
 	immediate = {
+        s:STATE_SCHLESWIG_HOLSTEIN = {
+		save_scope_as = holstein_q
+		}
+        c:PRU = {
+		save_scope_as = prussia_q
+		}
+        s:STATE_JUTLAND = {
+		save_scope_as = jutland_q
+		}
+        cu:north_german = {
+		save_scope_as = ng_culture
+		}
     	random_scope_state = {
 			limit = {
 				OR = {
@@ -43,7 +55,6 @@ slesvig_question.2 = {
 					}
 				}
 			}
-			save_scope_as = ng_expulsion_destination_country
 			random_scope_state = {
 				limit = {
 					OR = {
@@ -53,10 +64,10 @@ slesvig_question.2 = {
 				save_scope_as = ng_expulsion_destination_state
 			}
 		}
-        }
+    }
 
 
-	option = {
+	option = { #Expell the Germans
 		name = slesvig_question.2.o.1
 		default_option = yes
         scope:ng_expulsion_state = {
@@ -65,17 +76,72 @@ slesvig_question.2 = {
 					culture = cu:north_german
 				}
             }
-    scope:ng_expulsion_state = {
+        scope:ng_expulsion_state = {
 	 random_scope_pop  = {
 		limit = {
 			culture = cu:north_german
             is_pop_type = peasants
 		}
 		move_pop = scope:ng_expulsion_destination_state
+            }
         }
-        }
+        scope:jutland_q = {
+            add_claim = c:PRU
+		    remove_homeland = cu:north_german
+	    }
+        scope:holstein_q = {
+		    remove_homeland = cu:danish
+	    }
+        change_relations = {
+			country = c:PRU
+			value = -50
+		}
     }
+    	option = { #Swear vengence 
+		name = slesvig_question.2.o.2
+        scope:holstein_q = {
+            add_claim = ROOT
+	    }
+        every_scope_state = {   
+            limit = {
+			    state_region = {   
+                    any_scope_state = {
+					owner = c:DEN
+					}
+			        is_homeland = cu:danish
+                    is_homeland = cu:north_german
+                    
+			    }
+            }
+            add_radicals_in_state = {
+		        value = very_large_radicals
+		        culture = cu:north_german
+		    }
+	    }
+                every_scope_state = {   #remove this part, make a new event that ties in with this one but fires for Prussia
+            limit = {                    #actually, dont remove but make a scope to PRUSSIA, dont just scope the states
+			    state_region = {   
+                    any_scope_state = {
+					NOT = { owner = c:DEN }
+					}
+			        is_homeland = cu:danish
+                    is_homeland = cu:north_german
+                    
+			    }
+            }
+            add_radicals_in_state = {
+		        value = very_large_radicals
+		        culture = cu:danish
+		    }
+	    }
+        change_relations = {
+			country = c:PRU
+			value = 10
+		}
     }
+}
+
+
 
 
 
