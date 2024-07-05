@@ -144,6 +144,8 @@ STATES = {
 			owned_provinces = { x60809F }
 		}
 		add_homeland = cu:north_german
+		add_homeland = cu:danish
+
 	}
 		s:STATE_GOTLAND = {
 		create_state = {

@@ -1,0 +1,38 @@
+﻿namespace = slesvig_question
+
+# Dual Monarchy event
+slesvig_question.1 = {
+	type = country_event
+	desc = slesvig_question.1.d
+	title = slesvig_question.1.t 
+	flavor = slesvig_question.1.f
+
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	duration = 3
+
+	trigger = {
+		# triggered by JE
+	}
+
+	immediate = {
+		s:STATE_SCHLESWIG_HOLSTEIN = {
+		save_scope_as = holstein_q
+		}
+        s:STATE_JUTLAND = {
+		save_scope_as = jutland_q
+		}
+	}
+
+	option = {
+		scope:jutland_q = {
+		remove_homeland = cu:north_german
+		}
+	}
+}

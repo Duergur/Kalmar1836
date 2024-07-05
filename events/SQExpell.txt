@@ -1,0 +1,81 @@
+﻿namespace = slesvig_question
+
+slesvig_question.2 = {
+	type = country_event
+	placement = scope:ng_expulsion_state
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	event_image = {
+		video = "ep1_ca_mountain_pass_civilian"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	title = slesvig_question.2.t
+	desc = slesvig_question.2.d
+	flavor = slesvig_question.2.f
+
+	duration = 3
+
+	trigger = {
+		any_scope_state = {
+			region = sr:region_north_germany
+			any_scope_pop = {
+				culture = cu:danish
+			}
+		}
+	}
+
+	immediate = {
+    	random_scope_state = {
+			limit = {
+				OR = {
+					state_region = s:STATE_JUTLAND
+					}
+				}
+		save_scope_as = ng_expulsion_state
+		}
+		random_country = {
+			limit = {
+				any_scope_state = {
+					OR = {
+						state_region = s:STATE_SCHLESWIG_HOLSTEIN
+					}
+				}
+			}
+			save_scope_as = ng_expulsion_destination_country
+			random_scope_state = {
+				limit = {
+					OR = {
+						state_region = s:STATE_SCHLESWIG_HOLSTEIN
+					}
+				}
+				save_scope_as = ng_expulsion_destination_state
+			}
+		}
+        }
+
+
+	option = {
+		name = slesvig_question.2.o.1
+		default_option = yes
+        scope:ng_expulsion_state = {
+				kill_population_percent_in_state = {
+					percent = 0.08
+					culture = cu:north_german
+				}
+            }
+    scope:ng_expulsion_state = {
+	 random_scope_pop  = {
+		limit = {
+			culture = cu:north_german
+            is_pop_type = peasants
+		}
+		move_pop = scope:ng_expulsion_destination_state
+        }
+        }
+    }
+    }
+
+
+
