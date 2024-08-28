@@ -1,5 +1,5 @@
 ﻿namespace = slesvig_question
-
+#This Event works as intented
 slesvig_question.2 = {
 	type = country_event
 	placement = root

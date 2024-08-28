@@ -1,5 +1,6 @@
-﻿namespace = slesvig_question
+﻿#forget why this is still here, maybe delete
 
+namespace = slesvig_question 
 # Dual Monarchy event
 slesvig_question.1 = {
 	type = country_event
