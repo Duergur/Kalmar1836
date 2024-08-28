@@ -73,20 +73,31 @@ s:STATE_KUOPIO = { #DONE
 		region_state:RUS = {
 			create_pop = {
 				culture = finnish
-				size = 221799
+				size = 186799
 			}
 			create_pop = {
 				culture = finnish
 				religion = orthodox
-				size = 15000
-			}
-			create_pop = {
-				culture = swedish
-				size = 8715
+				size = 13000
 			}
 			create_pop = {
 				culture = russian
 				size = 3486
+			}
+		}
+		region_state:SWE = {
+			create_pop = {
+				culture = finnish
+				size = 35000
+			}
+			create_pop = {
+				culture = finnish
+				religion = orthodox
+				size = 2000
+			}
+			create_pop = {
+				culture = swedish
+				size = 8715
 			}
 		}
 	}
