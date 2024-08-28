@@ -1,0 +1,147 @@
+﻿namespace = slesvig_question
+#This Event works as intented
+slesvig_question.2 = {
+	type = country_event
+	placement = root
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	event_image = {
+		video = "ep1_ca_mountain_pass_civilian"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	title = slesvig_question.2.t
+	desc = slesvig_question.2.d
+	flavor = slesvig_question.2.f
+
+	duration = 3
+
+	trigger = {
+		any_scope_state = {
+			region = sr:region_north_germany
+			any_scope_pop = {
+				culture = cu:danish
+			}
+		}
+	}
+
+	immediate = {
+        s:STATE_SCHLESWIG_HOLSTEIN = {
+		save_scope_as = holstein_q
+		}
+        c:PRU = {
+		save_scope_as = prussia_q
+		}
+        s:STATE_JUTLAND = {
+		save_scope_as = jutland_q
+		}
+        cu:north_german = {
+		save_scope_as = ng_culture
+		}
+    	random_scope_state = {
+			limit = {
+				OR = {
+					state_region = s:STATE_JUTLAND
+					}
+				}
+		save_scope_as = ng_expulsion_state
+		}
+		random_country = {
+			limit = {
+				any_scope_state = {
+					OR = {
+						state_region = s:STATE_SCHLESWIG_HOLSTEIN
+					}
+				}
+			}
+			random_scope_state = {
+				limit = {
+					OR = {
+						state_region = s:STATE_SCHLESWIG_HOLSTEIN
+					}
+				}
+				save_scope_as = ng_expulsion_destination_state
+			}
+		}
+    }
+
+
+	option = { #Expell the Germans
+		name = slesvig_question.2.o.1
+		default_option = yes
+        scope:ng_expulsion_state = {
+				kill_population_percent_in_state = {
+					percent = 0.08
+					culture = cu:north_german
+				}
+            }
+        scope:ng_expulsion_state = {
+	 random_scope_pop  = {
+		limit = {
+			culture = cu:north_german
+            is_pop_type = peasants
+		}
+		move_pop = scope:ng_expulsion_destination_state
+            }
+        }
+        scope:jutland_q = {
+            add_claim = c:PRU
+		    remove_homeland = cu:north_german
+	    }
+        scope:holstein_q = {
+		    remove_homeland = cu:danish
+	    }
+        change_relations = {
+			country = c:PRU
+			value = -50
+		}
+    }
+    	option = { #Swear vengence 
+		name = slesvig_question.2.o.2
+        scope:holstein_q = {
+            add_claim = ROOT
+	    }
+        every_scope_state = {   
+            limit = {
+			    state_region = {   
+                    any_scope_state = {
+					owner = c:DEN
+					}
+			        is_homeland = cu:danish
+                    is_homeland = cu:north_german
+                    
+			    }
+            }
+            add_radicals_in_state = {
+		        value = very_large_radicals
+		        culture = cu:north_german
+		    }
+	    }
+                every_scope_state = {   #remove this part, make a new event that ties in with this one but fires for Prussia
+            limit = {                    #actually, dont remove but make a scope to PRUSSIA, dont just scope the states
+			    state_region = {   
+                    any_scope_state = {
+					NOT = { owner = c:DEN }
+					}
+			        is_homeland = cu:danish
+                    is_homeland = cu:north_german
+                    
+			    }
+            }
+            add_radicals_in_state = {
+		        value = very_large_radicals
+		        culture = cu:danish
+		    }
+	    }
+        change_relations = {
+			country = c:PRU
+			value = 10
+		}
+    }
+}
+
+
+
+
+

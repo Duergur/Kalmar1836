@@ -16,7 +16,7 @@ kalmar_united.1 = {
 	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	
 	trigger = {
-		owns_entire_state_region = STATE_SVEALAND
+		#By je_kalmar_unification
 	}
 	
 
