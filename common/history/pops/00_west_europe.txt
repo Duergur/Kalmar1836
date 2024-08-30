@@ -113,7 +113,11 @@
 			}
 			create_pop = {
 				culture = finnish
-				size = 9000
+				size = 2000
+			}
+			create_pop = {
+				culture = danish
+				size = 12000
 			}
 			create_pop = {
 				culture = ashkenazi

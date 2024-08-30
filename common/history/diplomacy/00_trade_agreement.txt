@@ -20,7 +20,13 @@
 			country = c:PRU
 			type = trade_agreement
 		}
-	}		
+	}	
+	c:DEN ?= {
+		create_diplomatic_pact = {
+			country = c:PRU
+			type = trade_agreement
+		}
+	}
 	c:GBR ?= {
 		create_diplomatic_pact = {
 			country = c:POR

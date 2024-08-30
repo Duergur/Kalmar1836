@@ -71,7 +71,7 @@
 		set_relations = { country = c:HOL value = 30 }
 		set_relations = { country = c:SWE value = 20 }
 		set_relations = { country = c:RUS value = -20 }
-		set_relations = { country = c:PRU value = -20 }
+		set_relations = { country = c:PRU value = 10 }
 	}
 	c:EGY ?= {
 		set_relations = { country = c:HDJ value = -30 }
