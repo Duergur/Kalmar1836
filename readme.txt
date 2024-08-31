@@ -6,8 +6,6 @@ JE for nationalism (lower liberty desire from IG trait?)
 JE for claims on Karelia when Kalmar is formed, maybe also claims on Estonia
 JE for Greenland, make it state once it reaches x population? maybe post 70k pop?
 
-
-
 make JE if DEN loses HOL
 Jutland-Slesvig Question
 If Denmark loses control of Holstein, then Jutland loses it's North German Homeland status and Holstein loses it's Danish homeland status
@@ -18,13 +16,9 @@ Jutland question options
 2. Remove respective homelands, relationship hit with Prussia, expell NG culture from Jutland, rename Slesvig-Jylland to Jylland. big radicalism for NG culture in Denmark
 3. 
 
-
-
 OTHER TO DO:
 Fix loc for Danish Landowners/Kalmar nobility, flesh out the fluff
 Make 3 stages of Kalmar Nobility liberty desire traits
-
-
 
 JE for Holstein
 Release PU from Holstein, make it Prussian Protectorate and in return 5 years of Prussian bankroll
@@ -43,3 +37,10 @@ Event choices
 1. Germans lose homeland on Jutland and Danes lose homeland on Holstein
 2.
 3.
+
+
+JE for Caribbean Colonies
+1. JE to buy West Indies from GBR and France
+
+JE for Estonia
+1. JE to free Estonia from Russia and incorporate it as an independent/protectorate of Kalmar Union powerbloc/Denmark

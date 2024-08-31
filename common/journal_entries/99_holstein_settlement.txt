@@ -1,0 +1,45 @@
+﻿
+je_holstein_settlement = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	group = je_group_kalmar_journal
+		is_shown_when_inactive = {
+		#hidden_trigger = { NOT = { has_global_variable = schleswig_holstein_question_solved } }		
+		OR = {
+			country_has_primary_culture = cu:danish
+		}
+	}
+
+
+	possible = {
+		#hidden_trigger = { NOT = { has_global_variable = schleswig_holstein_question_solved } }			
+		OR = {
+			country_has_primary_culture = cu:danish
+		}			
+	}
+
+	complete = {
+	c:DEN ?= {
+			has_technology_researched = nationalism
+			}
+	c:PRU ?= {
+				has_technology_researched = nationalism
+			}
+		}
+	
+	
+
+	on_complete = {
+		trigger_event = { id = holstein_settlement.1 }	
+	}
+
+	invalid = {
+		OR = {
+			is_subject = yes
+		}
+	}
+	
+	weight = 1000
+	
+	should_be_pinned_by_default = yes
+}

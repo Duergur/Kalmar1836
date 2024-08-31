@@ -7,11 +7,28 @@
  ig_trait_norwegian_loyalty:0 "Loyal Norway
  ig_trait_vasa_cult:0 "Rebellions"
  KALMAR_UNION:0 "Kalmar Union"
- kalmar_united.1.t:0 "Kalmar United"
- kalmar_united.1.d:0 "Kalmar Union has been united"
- kalmar_united.1.f:0 "vanilla pls"
- kalmar_united.3.b:0 "boi"
+
+
+ Estridsen:0 "Estridsen"
+
+#Journal Entries and events
  je_kalmar_unification:0 "Uniting the Kingdoms"
  je_kalmar_unification_reason:0 "The time for unity is now"
  je_group_kalmar_journal:0 "Kalmar Saga"
- Estridsen:0 "Estridsen"
+ je_holstein_settlement:0 "The Holstein Settlement"
+ je_holstein_settlement_reason:0 "Long have we feuded with the Germans about Holstein. With the rise of nationalism, the situation has changed drastically and as such, drastic measures will be needed."
+ #JE events
+  kalmar_united.1.t:0 "Kalmar United"
+ kalmar_united.1.d:0 "Kalmar Union has been united"
+ kalmar_united.1.f:0 "vanilla pls"
+ kalmar_united.3.b:0 "boi"
+ holstein_settlement.o.1:0 "Option 1"
+ holstein_settlement.o.2:0 "Option 3"
+ holstein_settlement.o.3:0 "Relinquish the royal claim on Holstein
+ holstein_settlement.1.d:0 "settle 1"
+ holstein_settlement.1.t:0 "The Holstein Question"
+ holstein_settlement.1.f:0 "settel3"
+
+modifier_holstein_payment_1:0 "Payment for Holstein"
+modifier_holstein_payment_2:0 "Pay for Holstein"
+holstein_settlement.hidden:0 "hidden option"
