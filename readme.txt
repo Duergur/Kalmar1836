@@ -44,3 +44,12 @@ JE for Caribbean Colonies
 
 JE for Estonia
 1. JE to free Estonia from Russia and incorporate it as an independent/protectorate of Kalmar Union powerbloc/Denmark
+
+
+CHANGES TO KALMAR NOBILITY
+1. Change Paternalistic idelogy
+ strongly endorse       oligarchy, landed voted
+            endorse     
+            neutral     
+            oppose      
+    strongly   oppose   autocracy
