@@ -2,10 +2,14 @@
   # Multi-word names
  christian_august_ii:0 "Christian August II"
  von_sonderburg:0 "von Sonderburg"
+ # IG and Ideologies
  ig_kalmar_nobility:0 "Kalmar Nobility"
  ig_trait_swedish_loyalty:0 "Loyal Swedes"
  ig_trait_norwegian_loyalty:0 "Loyal Norway
  ig_trait_vasa_cult:0 "Rebellions"
+ideology_uradel:0 "Uradel"
+ideology_uradel_desc:0 "The ancient nobility of the Kalmar Union, they believe the king must be kept in check by the lords of the land"
+
  KALMAR_UNION:0 "Kalmar Union"
 
 
