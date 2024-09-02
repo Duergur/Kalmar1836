@@ -1,0 +1,10 @@
+﻿modifier_holstein_payment_1 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_tax_income_add = 2000
+	country_prestige_mult = -0.01
+}
+modifier_holstein_payment_2 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_expenses_add = 2000
+	country_prestige_mult = 0.02
+}

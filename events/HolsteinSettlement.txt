@@ -1,0 +1,83 @@
+﻿namespace = holstein_settlement
+
+# Selling Holstein to Prussia event
+holstein_settlement.1 = {
+	type = country_event
+	desc = holstein_settlement.1.d
+	title = holstein_settlement.1.t 
+	flavor = holstein_settlement.1.f
+
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	duration = 3
+
+	trigger = {
+		# triggered by JE
+	}
+
+	immediate = {
+		s:STATE_SCHLESWIG_HOLSTEIN = {
+		save_scope_as = holstein_state
+		}
+        cu:north_german = {
+		save_scope_as = ng_culture
+		}
+		c:HOL = {
+		save_scope_as = holstein_country
+		}
+			c:PRU = {
+		save_scope_as = hol_prussia
+		}
+		c:PRU = {
+		save_scope_as = hol_prussia2
+		}
+	}
+
+	option = {
+    	name = holstein_settlement.o.1
+		add_modifier = { 
+    	name = modifier_holstein_payment_1
+    	multiplier = 3
+    is_decaying = yes # Optional, if yes, it will decay, default is no
+    months = 60 # Optional, if it is not set, the modifier is permanent.
+}
+		    
+	    }
+    
+	option = {
+            name = holstein_settlement.o.2
+			scope:hol_prussia ?= {
+				create_diplomatic_pact = {
+					country = c:DEN
+					type = bankroll
+				}
+				set_variable = { name = forced_bankroll_time value = c:DEN months = 3 }
+			}
+    }
+	option = { #makes holstein into prussian puppet
+		name = holstein_settlement.o.3
+		default_option = yes
+		add_modifier = { 
+    		name = modifier_holstein_payment_1
+    		months = 60 # 4 years, 480k in total
+		}
+		hidden_effect = {
+		trigger_event = { # fires the specified event
+					id = holstein_settlement.69
+					
+				}
+			}
+		scope:hol_prussia = {
+		create_diplomatic_pact = {
+			country = c:HOL
+			type = puppet
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+﻿holstein_settlement.69 = { # every event always needs an ID
+	type = country_event # remember, this can be state_event or character_event too
+	hidden = yes # you must include this line or you'll get errors
+	
+	trigger = {
+		#JE
+	}
+
+	immediate = {
+		scope:hol_prussia = {
+			add_modifier = { 
+    		name = modifier_holstein_payment_2
+    		months = 60 # 4 years, 480k in total
+}
+		}
+	}
+	
+}
