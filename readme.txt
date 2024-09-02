@@ -48,6 +48,7 @@ JE for Estonia
 
 CHANGES TO KALMAR NOBILITY
 1. Change Paternalistic idelogy
+Uradel
  strongly endorse       oligarchy, landed voted
             endorse     
             neutral     
