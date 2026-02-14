@@ -21,15 +21,15 @@
 		region_state:SWE = {
 			create_pop = {
 				culture = swedish
-				size = 800208
+				size = 780208 #-20k
 			}
 			create_pop = {
 				culture = finnish
 				size = 9000
 			}
 			create_pop = {
-				culture = ashkenazi
-				size = 100
+				culture = danish
+				size = 80000 #+80k
 			}
 		}
 	}
@@ -63,7 +63,11 @@
 		region_state:DEN = {
 			create_pop = {
 				culture = danish
-				size = 548908
+				size = 648908
+			}
+			create_pop = {
+				culture = north_german
+				size = 135000
 			}
 		}
 	}
@@ -139,7 +143,7 @@
 				size = 63200
 			}
 			create_pop = {
-				culture = danish
+				culture = norwegian
 				size = 520
 			}
 		}
@@ -163,11 +167,11 @@
 		}
 	}
 #Slesvig Holstein
-s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into seperate states again i need to fix pops here.
+s:STATE_SCHLESWIG_HOLSTEIN = {
 		region_state:HOL = {
 			create_pop = {
 				culture = north_german
-				size = 374604
+				size = 474604
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -194,17 +198,7 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 				size = 2000
 			}
 		}
-		region_state:SCH = {
-			create_pop = {
-				culture = north_german
-				size = 200000
-			}
-			create_pop = {
-				culture = danish
-				size = 136404
-			}
-		}
-		region_state:DEN = {
+		region_state:DEN = { #Flensburg
 			create_pop = {
 				culture = north_german
 				size = 20000

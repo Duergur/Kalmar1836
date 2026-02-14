@@ -7,10 +7,6 @@
 			type = personal_union
 		}
 		create_diplomatic_pact = {
-			country = c:SCH
-			type = personal_union
-		}
-		create_diplomatic_pact = {
 			country = c:SWE
 			type = personal_union
 		}

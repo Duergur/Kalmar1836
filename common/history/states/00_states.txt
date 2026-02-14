@@ -8114,16 +8114,16 @@ s:STATE_UUSIMAA = {
 	s:STATE_SCHLESWIG_HOLSTEIN = {
 		create_state = {
 			country = c:HOL
-			owned_provinces = { x804160 x64824C xE000A0 }
+			owned_provinces = { x804160 x64824C xE000A0 xBFCC21 } # xBFCC21 added from SCH
 		}
 		create_state = {
 			country = c:LUB
 			owned_provinces = { x60809F }
 		}
-		create_state = {
-			country = c:SCH
-			owned_provinces = { xBFCC21 } #xE3C876 x78B203 x00C060 moved to Jotland
-		}
+#		create_state = {
+#			country = c:SCH
+#			owned_provinces = {  } #xE3C876 x78B203 x00C060 moved to Jotland xBFCC21 moved to Holstein
+#		}
 		create_state = {
 			country = c:DEN
 			owned_provinces = { xD1DDAF }

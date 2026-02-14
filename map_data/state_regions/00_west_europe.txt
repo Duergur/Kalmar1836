@@ -108,11 +108,11 @@ STATE_JUTLAND = { #Kalmar mod "x78B203" "x00C060" "xE3C876" are added from Slesv
     farm = "xB0B469"
     mine = "x770871"
     wood = "xEBF079"
-    arable_land = 35
+    arable_land = 45 #was 35, 10 from Holstein
     arable_resources = { "building_rye_farm" "building_livestock_ranch" }
     capped_resources = {
-        building_logging_camp = 6
-        building_fishing_wharf = 10
+        building_logging_camp = 10 #was 6, +4 from Holstein, but didnt remove any from holstein
+        building_fishing_wharf = 12 #was 10, 2 from Holstein
     }
     naval_exit_id = 3019
 }
@@ -210,12 +210,12 @@ STATE_ICELAND = {
     farm = "x27F04F"
     mine = "x45F99B"
     wood = "x09AC69"
-    arable_land = 5
+    arable_land = 25 #+20 cause i like iceland yo
     arable_resources = { "building_rye_farm" "building_livestock_ranch" }
     capped_resources = {
-        building_sulfur_mine = 20
-        building_whaling_station = 5
-        building_fishing_wharf = 3
+        building_sulfur_mine = 40 #+20
+        building_whaling_station = 10 #+5
+        building_fishing_wharf = 13 #+10
     }
     naval_exit_id = 3022
 }
@@ -1218,11 +1218,11 @@ STATE_SCHLESWIG_HOLSTEIN = { #Kalmar mod "x78B203" "x00C060" "xE3C876" original 
     farm = "xD1DDAF"
     mine = "xBFCC21"
     wood = "x804160"
-    arable_land = 40
+    arable_land = 30 #was 40, 10 to Jutland
     arable_resources = { "building_rye_farm" "building_livestock_ranch" }
     capped_resources = {
-        building_logging_camp = 6
-        building_fishing_wharf = 6
+        building_logging_camp = 6 #kept at six to keep it good state
+        building_fishing_wharf = 4 #was 6, 2 went to Jutland
     }
     naval_exit_id = 3019
 }
