@@ -21,7 +21,7 @@ c:SWE ?= {
 
 			combat_unit = { # Kalmar regemente, Norra skånska infanteriregementet, Södra skånska infanteriregementet,
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_SCANIA
+				state_region = s:STATE_SVEALAND #USED TO BE SCANIA TROOPS
 				count = 3
 			}
 
@@ -33,7 +33,7 @@ c:SWE ?= {
 
 			combat_unit = { # Gotlands nationalbeväring
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_GOTLAND
+				state_region = s:STATE_GOTALAND #Used to be Gotland
 				count = 1
 			}
 
@@ -57,13 +57,13 @@ c:SWE ?= {
 
 			combat_unit = { # Skånska dragonregementet
 				type = unit_type:combat_unit_type_dragoons
-				state_region = s:STATE_SCANIA
+				state_region = s:STATE_SVEALAND #USED TO BE SCANIA TROOPS
 				count = 1
 			}
 
 			combat_unit = { # Skånska husarregementet
 				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_SCANIA
+				state_region = s:STATE_SVEALAND #USED TO BE SCANIA TROOPS
 				count = 1
 			}
 
@@ -111,7 +111,7 @@ c:SWE ?= {
 
 			combat_unit = { # Gustaf den Store, Manligheten, Prins Oscar
 				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_SCANIA
+				state_region = s:STATE_SVEALAND #USED TO BE SCANIA TROOPS
 				count = 3
 			}
 
@@ -129,7 +129,7 @@ c:SWE ?= {
 
 			combat_unit = { # Galathea, Josephine
 				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_SCANIA
+				state_region = s:STATE_SVEALAND #USED TO BE SCANIA TROOPS
 				count = 2
 			}
 
