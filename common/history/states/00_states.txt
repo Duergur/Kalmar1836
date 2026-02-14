@@ -8124,6 +8124,10 @@ s:STATE_UUSIMAA = {
 			country = c:SCH
 			owned_provinces = { x00C060 x78B203 xE3C876 xBFCC21 }
 		}
+		create_state = {
+			country = c:DEN
+			owned_provinces = { xD1DDAF }
+		}
 
 		add_homeland = cu:danish
 		add_homeland = cu:north_german

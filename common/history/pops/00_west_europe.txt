@@ -204,6 +204,16 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 				size = 136404
 			}
 		}
+		region_state:DEN = {
+			create_pop = {
+				culture = north_german
+				size = 20000
+			}
+			create_pop = {
+				culture = danish
+				size = 136404
+			}
+		}
 	}
 #Vanilla below Kalmar ends here
 	s:STATE_HOME_COUNTIES = {
