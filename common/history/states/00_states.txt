@@ -123,8 +123,8 @@ s:STATE_UUSIMAA = {
 #Denmark
 	s:STATE_JUTLAND = {
 		create_state = {
-			country = c:DEN
-			owned_provinces = { x00BFDF x83E6B1 x951AF2 x770871 x2D2259 xBA6413 x8041E0 x1F29B8 x94468F xB0B469 xEBF079 x0040DF }
+			country = c:DEN #xE3C876 x78B203 x00C060 added from Slesvig
+			owned_provinces = { xE3C876 x78B203 x00C060 x00BFDF x83E6B1 x951AF2 x770871 x2D2259 xBA6413 x8041E0 x1F29B8 x94468F xB0B469 xEBF079 x0040DF }
 		}
 
 		add_homeland = cu:danish
@@ -8122,7 +8122,7 @@ s:STATE_UUSIMAA = {
 		}
 		create_state = {
 			country = c:SCH
-			owned_provinces = { x00C060 x78B203 xE3C876 xBFCC21 }
+			owned_provinces = { xBFCC21 } #xE3C876 x78B203 x00C060 moved to Jotland
 		}
 		create_state = {
 			country = c:DEN
