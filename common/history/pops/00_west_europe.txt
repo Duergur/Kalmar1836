@@ -33,18 +33,7 @@
 			}
 		}
 	}
-	s:STATE_SCANIA = {
-		region_state:SWE = {
-			create_pop = {
-				culture = swedish
-				size = 512860
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 200
-			}
-		}
-	}
+
 	s:STATE_NORRLAND = {
 		region_state:SWE = {
 			create_pop = {
@@ -88,9 +77,21 @@
 				culture = north_german
 				size = 4400
 			}
-			create_pop = {
+			create_pop = { #moving all scandinavian jews to copenhagen to make conversion less likely?
 				culture = ashkenazi
-				size = 4400
+				size = 4600
+			}
+		}
+	}
+	s:STATE_SCANIA = {
+		region_state:DEN = {
+			create_pop = {
+				culture = danish
+				size = 412860
+			}
+			create_pop = {
+				culture = swedish
+				size = 100000
 			}
 		}
 	}
@@ -162,7 +163,7 @@
 		}
 	}
 #Slesvig Holstein
-s:STATE_SCHLESWIG_HOLSTEIN = {
+s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into seperate states again i need to fix pops here.
 		region_state:HOL = {
 			create_pop = {
 				culture = north_german

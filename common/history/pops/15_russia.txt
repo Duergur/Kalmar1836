@@ -2,7 +2,7 @@
 #Kalmar Mod
 #Finland
 s:STATE_UUSIMAA = { #DONE
-		region_state:FIN = {
+		region_state:SWE = {
 			create_pop = {
 				culture = swedish
 				size = 101334
@@ -14,7 +14,7 @@ s:STATE_UUSIMAA = { #DONE
 		}
 	}
 	s:STATE_WEST_KARELIA = { #DONE
-		region_state:FIN = {
+		region_state:SWE = {
 			create_pop = {
 				culture = finnish
 				size = 221799
@@ -35,7 +35,7 @@ s:STATE_UUSIMAA = { #DONE
 		}
 	}
 	s:STATE_ALAND = { #DONE
-		region_state:FIN = {
+		region_state:SWE = {
 			create_pop = {
 				culture = swedish
 				size = 25800
@@ -47,7 +47,7 @@ s:STATE_UUSIMAA = { #DONE
 		}
 	}
 	s:STATE_OSTROBOTHNIA = { #DONE
-		region_state:FIN = {
+		region_state:SWE = {
 			create_pop = {
 				culture = finnish
 				size = 135542
@@ -59,7 +59,7 @@ s:STATE_UUSIMAA = { #DONE
 		}
 	}
 	s:STATE_OULU = { #DONE
-		region_state:FIN = {
+		region_state:SWE = {
 			create_pop = {
 				culture = finnish
 				size = 116250
@@ -75,7 +75,7 @@ s:STATE_UUSIMAA = { #DONE
 		}
 	}
 	s:STATE_KUOPIO = { #DONE
-		region_state:FIN = {
+		region_state:SWE = {
 			create_pop = {
 				culture = finnish
 				size = 301794
