@@ -22,7 +22,7 @@
 #}
 
 kalmar_union = {
-	color = {00  110  182}
+	color = {100 0 0}
 
 	possible = {
 		exists = c:SCA
