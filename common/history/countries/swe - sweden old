@@ -6,10 +6,8 @@
 		
 		add_taxed_goods = g:liquor
 		
-		set_export_tariff_level = { 
-			goods = g:iron
-			level = no_tariffs_or_subventions
-		}
+		set_tariffs_export_priority = g:iron
+		set_tariffs_export_priority = g:wood
 		
 		# Laws 
 		activate_law = law_type:law_monarchy
@@ -29,20 +27,13 @@
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 3
-		}
+		}	
 
-		active_law:lawgroup_education_system ?= { # Public Schools
-			add_amendment = {
-				type = amendment_prussian_education
-				sponsor = PREV.ig:ig_armed_forces
-			}
-		}
-
-		ig:ig_devout ?= {
+		ig:ig_devout = {
 			add_ruling_interest_group = yes
 		}
 
-		ig:ig_landowners ?= {
+		ig:ig_landowners = {
 			add_ruling_interest_group = yes
 		}
 	}
