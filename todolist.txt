@@ -1,0 +1,35 @@
+Common folder
+dynamic country map colors -> 
+00 default = done
+history -> 
+
+buildings ->
+00 west europe = half done, need to do states and then decide how/if I mess with day one building economy
+15 russia = half done, need to do states and then decide how/if I mess with day one building economy
+
+countries -> 
+all half done, files are all vanilla so I need to decide which changes i wanna keep. come back to at end.
+den =
+fin =
+nor =
+rus =
+swe =
+
+diplomacy ->
+subject relationship = done
+trade agreements = possibly defunct due to trade changes, delete file?
+military formations -> 
+00 mil formations europe = up to date, come back to at end to decide how to change starting militaries/delete Slesvig military
+
+pops -> done - check at end
+west europe =
+russia =
+
+states ->
+states = done
+
+trade routes -> possibly not needed to mod anymore due to base game changes to trade
+trade routes =
+
+loc ->
+kalmar names =

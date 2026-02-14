@@ -1,6 +1,76 @@
 ﻿POPS = {
 #KalmarMod
-#Sweden
+#Norway
+	s:STATE_ICELAND = {
+		region_state:NOR = {
+			create_pop = {
+				culture = icelandic
+				size = 63200
+			}
+			create_pop = {
+				culture = danish
+				size = 520
+			}
+		}
+	}
+#Denmark
+	s:STATE_SCANIA = {
+		region_state:DEN = {
+			create_pop = {
+				culture = swedish
+				size = 512860
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 200
+			}
+		}
+	}
+		s:STATE_SCHLESWIG_HOLSTEIN = {
+		region_state:HOL = {
+			create_pop = {
+				culture = north_german
+				size = 374604
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 2000
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 8000
+			}
+			create_pop = {
+				culture = danish
+				size = 20000
+			}
+		}
+		region_state:LUB = {
+			create_pop = {
+				culture = north_german
+				size = 82396
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 2000
+			}
+		}
+		region_state:DEN = {
+			create_pop = {
+				culture = north_german
+				size = 200000
+			}
+			create_pop = {
+				culture = danish
+				size = 136404
+			}
+		}
+	}
+
+#Vanilla
+
 	s:STATE_SVEALAND = {
 		region_state:SWE = {
 			create_pop = {
@@ -33,7 +103,6 @@
 			}
 		}
 	}
-
 	s:STATE_NORRLAND = {
 		region_state:SWE = {
 			create_pop = {
@@ -50,15 +119,14 @@
 			}
 		}
 	}
-	s:STATE_GOTLAND = { #move to denmark
-		region_state:DEN = {
+	s:STATE_GOTLAND = {
+		region_state:SWE = {
 			create_pop = {
 				culture = swedish
 				size = 33208
 			}
 		}
 	}
-#Denmark
 	s:STATE_JUTLAND = {
 		region_state:DEN = {
 			create_pop = {
@@ -77,25 +145,12 @@
 				culture = north_german
 				size = 4400
 			}
-			create_pop = { #moving all scandinavian jews to copenhagen to make conversion less likely?
+			create_pop = {
 				culture = ashkenazi
-				size = 4600
+				size = 4400
 			}
 		}
 	}
-	s:STATE_SCANIA = {
-		region_state:DEN = {
-			create_pop = {
-				culture = danish
-				size = 412860
-			}
-			create_pop = {
-				culture = swedish
-				size = 100000
-			}
-		}
-	}
-#Norway	
 	s:STATE_WESTERN_NORWAY = {
 		region_state:NOR = {
 			create_pop = {
@@ -132,18 +187,6 @@
 			}
 		}
 	}
-	s:STATE_ICELAND = {
-		region_state:NOR = {
-			create_pop = {
-				culture = icelandic
-				size = 63200
-			}
-			create_pop = {
-				culture = danish
-				size = 520
-			}
-		}
-	}
 	s:STATE_GREENLAND = {
 		region_state:DEN = {
 			create_pop = {
@@ -162,50 +205,6 @@
 			}
 		}
 	}
-#Slesvig Holstein
-s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into seperate states again i need to fix pops here.
-		region_state:HOL = {
-			create_pop = {
-				culture = north_german
-				size = 374604
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 2000
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 8000
-			}
-			create_pop = {
-				culture = danish
-				size = 20000
-			}
-		}
-		region_state:LUB = {
-			create_pop = {
-				culture = north_german
-				size = 82396
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 2000
-			}
-		}
-		region_state:SCH = {
-			create_pop = {
-				culture = north_german
-				size = 200000
-			}
-			create_pop = {
-				culture = danish
-				size = 136404
-			}
-		}
-	}
-#Vanilla below Kalmar ends here
 	s:STATE_HOME_COUNTIES = {
 		region_state:GBR = {
 			create_pop = {
@@ -278,17 +277,12 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 		region_state:GBR = {
 			create_pop = {
 				culture = scottish
-				size = 434886
-			}
-			# est. 316680 Scottish Gaels
-			create_pop = {
-				culture = scottish_gaelic
-				size = 237510
+				size = 672396
 			}
 			create_pop = {
-				culture = scottish_gaelic
+				culture = scottish
 				religion = catholic
-				size = 79170
+				size = 8000
 			}
 		}
 	}
@@ -343,16 +337,12 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 		region_state:GBR = {
 			create_pop = {
 				culture = scottish
-				size = 1348072
+				size = 1397200
 			}
 			create_pop = {
 				culture = scottish
 				religion = catholic
 				size = 188000
-			}
-			create_pop = {
-				culture = scottish_gaelic
-				size = 49128
 			}
 			create_pop = {
 				culture = irish
@@ -362,62 +352,13 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 	}
 	s:STATE_ULSTER = {
 		region_state:GBR = {
-			### Aristocrats
-			create_pop = {
-				culture = scottish  # Presbyterians and Methodists
-				pop_type = aristocrats
-				size = 15000
-			}
-			create_pop = {
-				culture = irish  # Catholics
-				pop_type = aristocrats
-				size = 10000
-			}
-
-			### Farmers
-			create_pop = {
-				culture = scottish  # Presbyterians and Methodists
-				pop_type = farmers
-				size = 15000
-			}
-
-			### Officers
-			create_pop = {
-				culture = british # Anglicans
-				pop_type = officers
-				size = 2000
-			}
-			create_pop = {
-				culture = scottish  # Presbyterians and Methodists
-				pop_type = officers
-				size = 2500
-			}
-
-			### Soldiers
-			create_pop = {
-				culture = british # Anglicans
-				pop_type = soldiers
-				size = 20000
-			}
-			create_pop = {
-				culture = scottish  # Presbyterians and Methodists
-				pop_type = soldiers
-				size = 20000
-			}
-			create_pop = {
-				culture = irish  # Catholics
-				pop_type = soldiers
-				size = 25000
-			}
-
-			### Whoever
 			create_pop = {
 				culture = irish # Catholics
-				size = 1173122
+				size = 1183122
 			}
 			create_pop = {
 				culture = british # Anglicans
-				size = 385111
+				size = 407111
 			}
 			create_pop = {
 				culture = irish # Anglicans
@@ -426,7 +367,7 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 			}
 			create_pop = {
 				culture = scottish  # Presbyterians and Methodists
-				size = 510084
+				size = 575084
 			}
 			create_pop = {
 				culture = irish  # Presbyterians and Methodists
@@ -437,32 +378,13 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 	}
 	s:STATE_MUNSTER = {
 		region_state:GBR = {
-			### Officers
-			create_pop = {
-				culture = british # Anglicans
-				pop_type = officers
-				size = 1400
-			}
-
-			### Soldiers
-			create_pop = {
-				culture = british # Anglicans
-				pop_type = soldiers
-				size = 8000
-			}
-			create_pop = {
-				culture = irish  # Catholics
-				pop_type = soldiers
-				size = 8000
-			}
-
 			create_pop = {
 				culture = irish # Catholics
-				size = 2206388
+				size = 2214388
 			}
 			create_pop = {
 				culture = british # Anglicans
-				size = 62456
+				size = 71856
 			}
 			create_pop = {
 				culture = irish # Anglicans
@@ -482,33 +404,13 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 	}
 	s:STATE_LEINSTER = {
 		region_state:GBR = {
-			### Officers
-			create_pop = {
-				culture = british # Anglicans
-				pop_type = officers
-				size = 4500
-			}
-
-			### Soldiers
-			create_pop = {
-				culture = british # Anglicans
-				pop_type = soldiers
-				size = 26000
-			}
-			create_pop = {
-				culture = irish  # Catholics
-				pop_type = soldiers
-				size = 30000
-			}
-
-			### Whoever
 			create_pop = {
 				culture = irish # Catholics
-				size = 1647581
+				size = 1677581
 			}
 			create_pop = {
 				culture = british # Anglicans
-				size = 130489
+				size = 160989
 			}
 			create_pop = {
 				culture = irish # Anglicans
@@ -537,34 +439,13 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 	}
 	s:STATE_CONNAUGHT = {
 		region_state:GBR = {
-
-			### Officers
-			create_pop = {
-				culture = british # Anglicans
-				pop_type = officers
-				size = 700
-			}
-
-			### Soldiers
-			create_pop = {
-				culture = british # Anglicans
-				pop_type = soldiers
-				size = 6000
-			}
-			create_pop = {
-				culture = irish  # Catholics
-				pop_type = soldiers
-				size = 7000
-			}
-
-			### Whoever
 			create_pop = {
 				culture = irish # Catholics
-				size = 1312428
+				size = 1319428
 			}
 			create_pop = {
 				culture = british # Anglicans
-				size = 21763
+				size = 28463
 			}
 			create_pop = {
 				culture = irish # Anglicans
@@ -1025,7 +906,7 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 		}
 	}
 	# Friesland, Overijssel, Groningen, and Drenthe
-	s:STATE_FRIESLAND = {
+	s:STATE_FRIESLAND = { 
 		region_state:NET = {
 			create_pop = {
 				culture = dutch
@@ -1057,7 +938,7 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 			create_pop = {
 				culture = dutch
 				religion = catholic
-				size = 513449
+				size = 673889
 			}
 			create_pop = {
 				culture = wallonian # French or Walloon Reformed
@@ -1066,28 +947,12 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 5804
+				size = 6705
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 15101
-			}
-		}
-		region_state:BEL = {
-			create_pop = {
-				culture = dutch
-				religion = catholic
-				size = 160440
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 4100
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 901
+				size = 19201
 			}
 		}
 	}
@@ -1112,7 +977,7 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 			}
 		}
 		# Hainaut, Liège, Luxembourg, and Namur
-		region_state:BEL = { #
+		region_state:BEL = { # 
 			create_pop = {
 				culture = wallonian # 'Walloon & French' in census data.
 				size = 1413476
@@ -1207,44 +1072,11 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 			create_pop = {
 				culture = czech
 				religion = catholic
-				pop_type = shopkeepers
-				size = 20000
+				size = 2574808
 			}
 			create_pop = {
 				culture = ashkenazi
-				pop_type = shopkeepers
-				size = 5000
-			}
-			create_pop = {
-				culture = ashkenazi
-				pop_type = clerks
-				size = 15000
-			}
-			create_pop = {
-				culture = ashkenazi
-				pop_type = laborers
-				size = 30000
-			}
-			create_pop = {
-				culture = czech
-				religion = catholic
-				pop_type = soldiers
-				size = 30000
-			}
-			create_pop = {
-				culture = czech
-				religion = catholic
-				pop_type = clerks
-				size = 20000
-			}
-			create_pop = {
-				culture = czech
-				religion = catholic
-				size = 2504808
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 25996
+				size = 75996
 			}
 		}
 	}
@@ -1252,59 +1084,16 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 		region_state:AUS = {
 			create_pop = {
 				culture = south_german
-				size = 10000
-				pop_type = aristocrats
-			}
-			create_pop = {
-				culture = czech
-				size = 3500
-				pop_type = aristocrats
-			}
-			create_pop = {
-				culture = ashkenazi
-				pop_type = shopkeepers
-				size = 1000
-			}
-			create_pop = {
-				culture = ashkenazi
-				pop_type = clerks
-				size = 2000
-			}
-			create_pop = {
-				culture = ashkenazi
-				pop_type = laborers
-				size = 10000
+				size = 480408
 			}
 			create_pop = {
 				culture = czech
 				religion = catholic
-				pop_type = shopkeepers
-				size = 10000
-			}
-			create_pop = {
-				culture = czech
-				religion = catholic
-				pop_type = soldiers
-				size = 30000
-			}
-			create_pop = {
-				culture = czech
-				religion = catholic
-				pop_type = clerks
-				size = 5000
-			}
-			create_pop = {
-				culture = south_german
-				size = 470408
-			}
-			create_pop = {
-				culture = czech
-				religion = catholic
-				size = 1083496
+				size = 1131996
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 15000
+				size = 28000
 			}
 			create_pop = {
 				culture = polish
@@ -1342,11 +1131,11 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 		region_state:AUS = {
 			create_pop = {
 				culture = south_german
-				size = 183000
+				size = 174100
 			}
 			create_pop = {
 				culture = north_italian
-				size = 308000
+				size = 5900
 			}
 		}
 	}
@@ -1481,7 +1270,7 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 				culture = north_german
 				size = 27336
 			}
-		}
+		}	
 		region_state:SCM = {
 			create_pop = {
 				culture = north_german
@@ -1492,7 +1281,7 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 				culture = north_german
 				size = 8045
 			}
-		}
+		}			
 	}
 	s:STATE_ANHALT = {
 		region_state:PRU = {
@@ -1614,7 +1403,6 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 			}
 		}
 	}
-#Slesvig was here
 	s:STATE_WURTTEMBERG = {
 		region_state:WUR = {
 			create_pop = {
@@ -1641,7 +1429,7 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 				culture = south_german
 				size = 21024
 			}
-		}
+		}		
 	}
 	s:STATE_BADEN = {
 		region_state:BAD = {
@@ -1815,7 +1603,7 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 				culture = ashkenazi
 				size = 840
 			}
-		}
+		}	
 		region_state:COB = {
 			create_pop = {
 				culture = north_german
@@ -1830,7 +1618,7 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 				culture = ashkenazi
 				size = 502
 			}
-		}
+		}	
 		region_state:SCW = {
 			create_pop = {
 				culture = north_german
@@ -1845,7 +1633,7 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 				culture = ashkenazi
 				size = 293
 			}
-		}
+		}		
 	}
 	s:STATE_HESSE = {
 		region_state:FRM = {
@@ -1892,7 +1680,7 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 				culture = ashkenazi
 				size = 3400
 			}
-		}
+		}		
 		region_state:NAS = {
 			create_pop = {
 				culture = north_german
@@ -1918,7 +1706,7 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 				religion = catholic
 				size = 28011
 			}
-		}
+		}		
 	}
 	s:STATE_MECKLENBURG = {
 		region_state:MEC = {
@@ -1936,6 +1724,6 @@ s:STATE_SCHLESWIG_HOLSTEIN = { #IMPORTANT when i make Slesvig and Holstein into 
 				culture = north_german
 				size = 85002
 			}
-		}
+		}		
 	}
 }
