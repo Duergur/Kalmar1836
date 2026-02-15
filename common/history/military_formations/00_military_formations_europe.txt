@@ -41,13 +41,7 @@ c:SWE ?= {
 			combat_unit = { # Livregementets dragoner
 				type = unit_type:combat_unit_type_dragoons
 				state_region = s:STATE_SVEALAND
-				count = 1
-			}
-
-			combat_unit = { # Skånska dragonregementet
-				type = unit_type:combat_unit_type_dragoons
-				state_region = s:STATE_SVEALAND #USED TO BE SCANIA TROOPS
-				count = 1
+				count = 2 #+1 from Scania
 			}
 
 			combat_unit = { # Skånska husarregementet
