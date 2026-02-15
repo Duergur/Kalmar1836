@@ -1172,6 +1172,8 @@ s:STATE_OULU = {
 		}
 		
 		add_homeland = cu:swedish
+		add_homeland = cu:norwegian
+		add_homeland = cu:danish
 	}
 	s:STATE_NORRLAND = {
 		create_state = {

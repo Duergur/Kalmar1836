@@ -234,25 +234,25 @@ c:SWE ?= {
 		}
 	}
 
-	c:SCH ?= {
-		create_military_formation = { # Under Denmark
-			type = army
-			hq_region = sr:region_north_germany
-			name = Schleswigsche_Armee
-
-			combat_unit = { # Slesvigske Infanteriregiment
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_SCHLESWIG_HOLSTEIN
-				count = 1
-			}
-
-			combat_unit = { # Slesvigske Kyrasserregiment
-				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_SCHLESWIG_HOLSTEIN
-				count = 1
-			}
-		}
-	}
+#	c:SCH ?= { #Kalmar mod 
+#		create_military_formation = { # Under Denmark
+#			type = army
+#			hq_region = sr:region_north_germany
+#			name = Schleswigsche_Armee
+#
+#			combat_unit = { # Slesvigske Infanteriregiment
+#				type = unit_type:combat_unit_type_line_infantry
+#				state_region = s:STATE_SCHLESWIG_HOLSTEIN
+#				count = 1
+#			}
+#
+#			combat_unit = { # Slesvigske Kyrasserregiment
+#				type = unit_type:combat_unit_type_cuirassiers
+#				state_region = s:STATE_SCHLESWIG_HOLSTEIN
+#				count = 1
+#			}
+#		}
+#	}
 
 	c:HOL ?= {
 		create_military_formation = { # Under Denmark
@@ -263,7 +263,7 @@ c:SWE ?= {
 			combat_unit = { # Holstenske Infanteriregiment, Oldenborgske Infanteriregiment
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_SCHLESWIG_HOLSTEIN
-				count = 2
+				count = 4
 			}
 
 			combat_unit = { # Holstenske Lanseregiment
