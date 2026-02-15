@@ -727,9 +727,11 @@ s:STATE_SCANIA={
 			create_building={
 				building="building_arms_industry"
 				add_ownership={
-					country={
-						country="c:DEN"
-						levels=1
+					building={
+						type="building_financial_district"
+						country="c:SWE"
+						levels=3
+						region="STATE_GOTALAND"
 					}
 				}
 				reserves=1
