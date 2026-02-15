@@ -21,15 +21,19 @@
 		region_state:SWE = {
 			create_pop = {
 				culture = swedish
-				size = 780208 #-20k
+				size = 680208 #-120k
 			}
 			create_pop = {
 				culture = finnish
-				size = 9000
+				size = 19000 #10k
+			}
+			create_pop = {
+				culture = norwegian
+				size = 65000 #65k from swedish
 			}
 			create_pop = {
 				culture = danish
-				size = 80000 #+80k
+				size = 115000 #+80k +35k from swedish
 			}
 		}
 	}
@@ -38,7 +42,7 @@
 		region_state:SWE = {
 			create_pop = {
 				culture = swedish
-				size = 289400
+				size = 259400 #-30k made into norwegians
 			}
 			create_pop = {
 				culture = finnish
@@ -47,6 +51,10 @@
 			create_pop = {
 				culture = sami
 				size = 18000
+			}
+			create_pop = {
+				culture = norwegian
+				size = 38000 #+38k
 			}
 		}
 	}
