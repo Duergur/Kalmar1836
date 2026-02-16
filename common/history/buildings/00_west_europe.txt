@@ -214,7 +214,7 @@
 				building="building_iron_mine"
 				add_ownership={
 					building={
-						type="building_financial_district"
+						type="building_manor_house"
 						country="c:DEN"
 						levels=6
 						region="STATE_SCANIA"
@@ -344,9 +344,22 @@
 				building="building_rye_farm"
 				add_ownership={
 					building={
-						type="building_rye_farm"
+						type="building_manor_house"
 						country="c:DEN"
-						levels=8
+						levels=4
+						region="STATE_SCHLESWIG_HOLSTEIN"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_potatoes" }
+			}
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:DEN"
+						levels=4
 						region="STATE_JUTLAND"
 					}
 				}
@@ -509,9 +522,9 @@
 				building="building_textile_mill"
 				add_ownership={
 					building={
-						type="building_financial_district"
+						type="building_manor_house"
 						country="c:DEN"
-						levels=1
+						levels=2
 						region="STATE_ZEALAND"
 					}
 				}
@@ -568,7 +581,7 @@
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
-			create_building={
+			create_building={ #the Royal arms factory
 				building="building_arms_industry"
 				add_ownership={
 					country={
@@ -583,7 +596,7 @@
 				building="building_logging_camp"
 				add_ownership={
 					building={
-						type="building_financial_district"
+						type="building_manor_house"
 						country="c:DEN"
 						levels=2
 						region="STATE_ZEALAND"
@@ -596,7 +609,7 @@
 				building="building_tooling_workshop"
 				add_ownership={
 					building={
-						type="building_tooling_workshop"
+						type="building_manor_house"
 						country="c:DEN"
 						levels=1
 						region="STATE_ZEALAND"
@@ -624,10 +637,10 @@ s:STATE_SCANIA={
 				building="building_coal_mine"
 				add_ownership={
 					building={
-						type="building_financial_district"
+						type="building_manor_house"
 						country="c:DEN"
 						levels=1
-						region="STATE_SCANIA"
+						region="STATE_ZEALAND"
 					}
 				}
 				reserves=1
@@ -727,9 +740,11 @@ s:STATE_SCANIA={
 			create_building={
 				building="building_arms_industry"
 				add_ownership={
-					country={
-						country="c:DEN"
-						levels=1
+					building={
+						type="building_financial_district"
+						country="c:SWE"
+						levels=3
+						region="STATE_GOTALAND"
 					}
 				}
 				reserves=1
@@ -742,7 +757,7 @@ s:STATE_SCANIA={
 						type="building_manor_house"
 						country="c:DEN"
 						levels=4
-						region="STATE_SCANIA"
+						region="STATE_ZEALAND"
 					}
 				}
 				reserves=1
@@ -755,7 +770,7 @@ s:STATE_SCANIA={
 						type="building_manor_house"
 						country="c:DEN"
 						levels=4
-						region="STATE_SCANIA"
+						region="STATE_ZEALAND"
 					}
 				}
 				reserves=1
@@ -767,8 +782,21 @@ s:STATE_SCANIA={
 					building={
 						type="building_fishing_wharf"
 						country="c:DEN"
-						levels=4
+						levels=2
 						region="STATE_SCANIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated"  }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:DEN"
+						levels=3
+						region="STATE_ZEALAND"
 					}
 				}
 				reserves=1
@@ -833,7 +861,7 @@ s:STATE_SCANIA={
 				building="building_logging_camp"
 				add_ownership={
 					building={
-						type="building_financial_district"
+						type="building_manor_house"
 						country="c:DEN"
 						levels=2
 						region="STATE_ZEALAND"
@@ -924,7 +952,7 @@ s:STATE_SCANIA={
 				building="building_textile_mill"
 				add_ownership={
 					building={
-						type="building_financial_district"
+						type="building_manor_house"
 						country="c:DEN"
 						levels=3
 						region="STATE_ZEALAND"
@@ -961,7 +989,7 @@ s:STATE_SCANIA={
 				building="building_logging_camp"
 				add_ownership={
 					building={
-						type="building_financial_district"
+						type="building_manor_house"
 						country="c:DEN"
 						levels=2
 						region="STATE_SCANIA"
@@ -1030,7 +1058,7 @@ s:STATE_SCANIA={
 				building="building_iron_mine"
 				add_ownership={
 					building={
-						type="building_financial_district"
+						type="building_manor_house"
 						country="c:DEN"
 						levels=3
 						region="STATE_ZEALAND"
@@ -7229,7 +7257,13 @@ s:STATE_SCANIA={
 					building={
 						type="building_manor_house"
 						country="c:HOL"
-						levels=6
+						levels=2
+						region="STATE_SCHLESWIG_HOLSTEIN"
+					}
+					building={
+						type="building_manor_house"
+						country="c:DEN"
+						levels=4
 						region="STATE_SCHLESWIG_HOLSTEIN"
 					}
 				}
@@ -7253,15 +7287,9 @@ s:STATE_SCANIA={
 				building="building_logging_camp"
 				add_ownership={
 					building={
-						type="building_logging_camp"
-						country="c:HOL"
-						levels=1
-						region="STATE_SCHLESWIG_HOLSTEIN"
-					}
-					building={
 						type="building_financial_district"
-						country="c:HOL"
-						levels=1
+						country="c:DEN"
+						levels=2
 						region="STATE_SCHLESWIG_HOLSTEIN"
 					}
 				}
@@ -7311,7 +7339,7 @@ s:STATE_SCANIA={
 				building="building_furniture_manufactory"
 				add_ownership={
 					building={
-						type="building_furniture_manufactory"
+						type="building_financial_district"
 						country="c:DEN"
 						levels=2
 						region="STATE_SCHLESWIG_HOLSTEIN"
@@ -7324,10 +7352,10 @@ s:STATE_SCANIA={
 				building="building_tooling_workshop"
 				add_ownership={
 					building={
-						type="building_tooling_workshop"
+						type="building_manor_house"
 						country="c:DEN"
 						levels=2
-						region="STATE_ZEALAND"
+						region="STATE_JUTLAND"
 					}
 				}
 				reserves=1
@@ -7338,7 +7366,7 @@ s:STATE_SCANIA={
 				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
 				add_ownership={
 					building={
-						type="building_trade_center"
+						type="building_financial_district"
 						country="c:DEN"
 						levels=3
 						region="STATE_SCHLESWIG_HOLSTEIN"
