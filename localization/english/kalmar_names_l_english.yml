@@ -6,9 +6,30 @@
  
 
   # IG and Ideologies
+    # IG 
 ig_kalmar_nobility:0 "Kalmar Nobility"
-ig_trait_swedish_loyalty:0 "Loyal Swedes"
-ig_trait_norwegian_loyalty:0 "Loyal Norway"
-ig_trait_vasa_cult:0 "Rebellions"
+ig_kalmar_nobility_desc:0 "The ancient nobility of the Kalmar Union, loyal to the crown first and foremost"
+      #Denmark
+ig_trait_swedish_loyalty:0 "Swedish Independence"
+ig_trait_swedish_loyalty_desc:0 "The Swedish nobility has been kept loyal to the crown for centuries. This has been accomplished primarily by granting the Swedish people a great deal of independence from royal interference."
+ig_trait_norwegian_loyalty:0 "Norwegian Oaths"
+ig_trait_norwegian_loyalty_desc:0 "The Norwegian nobility have sworn oaths of loyalty to the crown."
+ig_trait_vasa_cult:0 "Breaking of the Union"
+ig_trait_vasa_cult_desc:0 "If you continue on this path, the nobles of Sweden and Norway will declare their independence from the Kalmar Union. Appease the nobles or face the end of nordic unity."
+      #Sweden
+ig_trait_danish_loyalists:0 "Danish Loyalists"
+ig_trait_danish_loyalists_desc:0 "Many nobles loyal to Denmark are influential in Sweden."
+ig_trait_loyal_swede:0 "Spoiled Nobles"
+ig_trait_loyal_swede_desc:0 "The Nobility have grown fat and happy during the reign of the Kalmar Union."
+ig_trait_unhappy_swede:0 "Royal Apathy"
+ig_trait_unhappy_swede_desc:0 "With the lack of noble meddling, the Swedish people thrive"
+      #Norway
+ig_trait_nordic_investments:0 "Brotherly Investment"
+ig_trait_nordic_investments_desc:0 "Norwegian infastructure and industry has greatly improved due to investments from Sweden and Denmark"
+ig_trait_loyal_norwegian:0 "Norwegian Cultural Boom"
+ig_trait_loyal_norwegian_desc:0 "Norway is all the rage with scandinavian nobility. Balls are Norwegian themed and even the peasants want to move there"
+ig_trait_unhappy_norwegian:0 "Foreign Nobles"
+ig_trait_unhappy_norwegian_desc:0 "The people of Norway do not deserve the attention of the crown or the nobility."
+  # Ideologies
 ideology_uradel:0 "Uradel"
 ideology_uradel_desc:0 "The ancient nobility of the Kalmar Union, they believe the king must be kept in check by the lords of the land"

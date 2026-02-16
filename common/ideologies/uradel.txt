@@ -11,11 +11,11 @@
 	
 	lawgroup_distribution_of_power = {
 		law_single_party_state = neutral
-		law_landed_voting = approve
-		law_autocracy = disapprove
-		law_oligarchy = strongly_approve
+		law_landed_voting = strongly_approve
+		law_autocracy = strongly_disapprove
+		law_oligarchy = approve
 		law_wealth_voting = neutral
-		law_census_voting = disapprove
+		law_census_voting = strongly_disapprove
 		law_universal_suffrage = strongly_disapprove
 		law_anarchy = strongly_disapprove
 		law_technocracy = strongly_disapprove
@@ -45,7 +45,7 @@
 	}
 	
 	lawgroup_trade_policy = {		
-		law_isolationism = disapprove
+		law_isolationism = strongly_disapprove
 		law_mercantilism = approve
 		law_protectionism = neutral
 		law_free_trade = disapprove

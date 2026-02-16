@@ -33,3 +33,8 @@ trade routes =
 
 loc ->
 kalmar names =
+
+
+
+
+The Danish Kingdom has lead the Kalmar Union for over 430 years. The nobility have grown fat and rich off the taxes levied on Sweden and Norway, but have invested little into industry inside Danish borders. Denmark is at risk of falling behind the more industrialised Sweden if this course is not corrected. King Valdemar is old and sickly with only a 14 year old daughter as heir, the future of the union has never been more unclear.

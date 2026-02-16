@@ -100,7 +100,7 @@
 				set_ig_trait = ig_trait:ig_trait_family_ties
 				set_ig_trait = ig_trait:ig_trait_noblesse_oblige
 			}
-			else_if = { # Kalmar
+			else_if = { # Kalmar Denmark
 				limit = {
 					owner = {
 						country_has_primary_culture = cu:danish
@@ -109,6 +109,26 @@
 				set_ig_trait = ig_trait:ig_trait_vasa_cult
 				set_ig_trait = ig_trait:ig_trait_norwegian_loyalty
 				set_ig_trait = ig_trait:ig_trait_swedish_loyalty
+			}
+			else_if = { # Kalmar sweden
+				limit = {
+					owner = {
+						country_has_primary_culture = cu:swedish
+					}
+				}
+				set_ig_trait = ig_trait:ig_trait_unhappy_swede
+				set_ig_trait = ig_trait:ig_trait_danish_loyalists
+				set_ig_trait = ig_trait:ig_trait_loyal_swede
+			}
+			else_if = { # Kalmar norway
+				limit = {
+					owner = {
+						country_has_primary_culture = cu:norwegian
+					}
+				}
+				set_ig_trait = ig_trait:ig_trait_unhappy_norwegian
+				set_ig_trait = ig_trait:ig_trait_nordic_investments
+				set_ig_trait = ig_trait:ig_trait_loyal_norwegian
 			}
 			else = {
 				set_ig_trait = ig_trait:ig_trait_noble_privileges
@@ -129,6 +149,26 @@
 		if = { #Kalmar 2026
 			limit = {
 				country_has_primary_culture = cu:danish
+			}
+			ig:ig_landowners ?= {
+				set_interest_group_name = ig_kalmar_nobility
+				remove_ideology = ideology_paternalistic
+				add_ideology = ideology_uradel
+			}
+		}
+		if = { #Kalmar 2026
+			limit = {
+				country_has_primary_culture = cu:swedish
+			}
+			ig:ig_landowners ?= {
+				set_interest_group_name = ig_kalmar_nobility
+				remove_ideology = ideology_paternalistic
+				add_ideology = ideology_uradel
+			}
+		}
+		if = { #Kalmar 2026 Norway
+			limit = {
+				country_has_primary_culture = cu:norwegian
 			}
 			ig:ig_landowners ?= {
 				set_interest_group_name = ig_kalmar_nobility
@@ -253,15 +293,6 @@
 					remove_ideology = ideology_paternalistic
 					add_ideology = ideology_moderantist
 				}
-			}
-		}
-		# Aristocracy of Officials
-		else_if = {
-			limit = {
-				country_has_primary_culture = cu:norwegian
-			}
-			ig:ig_landowners ?= {
-				set_interest_group_name = ig_aristocracy_of_officials
 			}
 		}
 		# Southern Planters
