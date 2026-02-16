@@ -7,3 +7,10 @@
 		state_construction_mult = 0.25
 	}
 }
+state_trait_icelandic_fisheries = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+
+	modifier = {
+	building_group_bg_fishing_throughput_add = 0.2
+	}
+}
