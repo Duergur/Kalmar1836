@@ -1,0 +1,22 @@
+POWER_BLOCS = {
+    	c:DEN ?= {
+		create_power_bloc = {
+			name = KALMAR_UNION
+			map_color = hsv{ 0.99  0.7  0.9 }
+
+			founding_date = 1397.06.17 # Kalmar Union formed
+			identity = identity_cultural
+			principle = principle_freedom_of_movement_3
+
+			# subjects are automatically part of the bloc
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+			power_bloc = {
+				principle_shared_canon_1
+			}
+		}
+	}
+}
