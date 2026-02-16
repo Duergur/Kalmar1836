@@ -1,0 +1,66 @@
+﻿
+enable = {
+	always = yes
+	}
+on_enable = {
+		ig:ig_landowners = {
+			if = {
+				limit = {
+					owner = { c:DEN = this}
+				}
+				set_ig_trait = ig_trait:ig_trait_vasa_cult
+				set_ig_trait = ig_trait:ig_trait_norwegian_loyalty
+				set_ig_trait = ig_trait:ig_trait_swedish_loyalty
+			}
+			else_if = {
+				limit = {
+						owner = { c:SCA ?= this }
+						c:SCA ?= { was_formed_from = DEN }
+						}
+				set_ig_trait = ig_trait:ig_trait_noble_privileges
+				set_ig_trait = ig_trait:ig_trait_family_ties
+				set_ig_trait = ig_trait:ig_trait_junkerdom
+			}
+		}
+		# Kalmar Union 
+		if = {
+			limit = {
+				c:DEN ?= this
+			}
+			ig:ig_landowners = {
+				set_interest_group_name = ig_kalmar_nobility
+			}
+		}
+	}
+
+
+
+#2026 Uradel II
+	#Kalmar Mod begins here
+			else_if = {   # LOOK HERE VANILLA ABOVE THIS POINT
+				limit = {
+					owner = { c:DEN ?= this}
+				}
+				set_ig_trait = ig_trait:ig_trait_vasa_cult
+				set_ig_trait = ig_trait:ig_trait_norwegian_loyalty
+				set_ig_trait = ig_trait:ig_trait_swedish_loyalty
+			}
+			else = { #Vanilla begin, must be at end of else if chain be
+				set_ig_trait = ig_trait:ig_trait_noble_privileges
+				set_ig_trait = ig_trait:ig_trait_family_ties
+				set_ig_trait = ig_trait:ig_trait_noblesse_oblige
+			} #vanilla end
+		}
+		# Kalmar Union and Uradel
+		if = {
+			limit = {
+				c:DEN ?= this
+				NOT = { c:SCA ?= this }
+			}
+			ig:ig_landowners = {
+				set_interest_group_name = ig_kalmar_nobility
+				remove_ideology = ideology_paternalistic
+				add_ideology = ideology_uradel
+			}
+		}
+#Kalmar Mod ends here
