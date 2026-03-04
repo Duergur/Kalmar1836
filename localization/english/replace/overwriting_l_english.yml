@@ -4,3 +4,7 @@
  DEN_FLAVOR_TEXT:0 "The Danish Kingdom has lead the Kalmar Union for over 430 years. The nobility have grown fat and rich off the taxes levied on Sweden and Norway, but have invested little into industry inside Danish borders. Denmark is at risk of falling behind the more industrialised Sweden if this course is not corrected. King Valdemar is old and sickly with only a 14 year old daughter as heir, the future of the union has never been more unclear."
  SWE_FLAVOR_TEXT:0 "Centuries of being united with the Danish and Norwegian kingdoms has let Sweden flourish. Innovation is plentiful and the future looks bright."
  NOR_FLAVOR_TEXT:0 "Although the union has done little for Norway in the past, recent investments by Swedish and Danish nobles have increased economic growth and public opinion of the Danish royals has never been better."
+ dixie:0 "Norse"
+ yankee:0 "Scandinavian"
+ franco_canadian:0 "Swedes"
+ anglo_canadian:0 "Danes"

@@ -1048,7 +1048,7 @@ s:STATE_SCANIA={
 				add_ownership={
 					country={
 						country="c:NOR"
-						levels=2
+						levels=3
 					}
 				}
 				reserves=1
